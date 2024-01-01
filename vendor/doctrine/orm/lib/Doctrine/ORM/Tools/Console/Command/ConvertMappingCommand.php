@@ -6,6 +6,7 @@ namespace Doctrine\ORM\Tools\Console\Command;
 
 use Doctrine\DBAL\Connection;
 use Doctrine\ORM\Mapping\Driver\DatabaseDriver;
+use Doctrine\ORM\Tools\Console\CommandCompatibility;
 use Doctrine\ORM\Tools\Console\MetadataFilter;
 use Doctrine\ORM\Tools\DisconnectedClassMetadataFactory;
 use Doctrine\ORM\Tools\EntityGenerator;
@@ -37,6 +38,8 @@ use function strtolower;
  */
 class ConvertMappingCommand extends AbstractEntityManagerCommand
 {
+    use CommandCompatibility;
+
     /** @return void */
     protected function configure()
     {
@@ -73,17 +76,18 @@ in Doctrine 2 and can be used as runtime mapping for the ORM.
 by the ORM, you can use a DBAL functionality to filter the tables and sequences down
 on a global level:
 
-    $config->setFilterSchemaAssetsExpression($regexp);
+    $config->setSchemaAssetsFilter(function (string|AbstractAsset $assetName): bool {
+        if ($assetName instanceof AbstractAsset) {
+            $assetName = $assetName->getName();
+        }
+
+        return !str_starts_with($assetName, 'audit_');
+    });
 EOT
              );
     }
 
-    /**
-     * {@inheritDoc}
-     *
-     * @return int
-     */
-    protected function execute(InputInterface $input, OutputInterface $output)
+    private function doExecute(InputInterface $input, OutputInterface $output): int
     {
         $ui = new SymfonyStyle($input, $output);
         $ui->getErrorStyle()->warning('Command ' . $this->getName() . ' is deprecated and will be removed in Doctrine ORM 3.0.');

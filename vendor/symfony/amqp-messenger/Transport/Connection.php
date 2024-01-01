@@ -180,7 +180,7 @@ class Connection
         if (false === $parsedUrl = parse_url($dsn)) {
             // this is a valid URI that parse_url cannot handle when you want to pass all parameters as options
             if (!\in_array($dsn, ['amqp://', 'amqps://'])) {
-                throw new InvalidArgumentException(sprintf('The given AMQP DSN "%s" is invalid.', $dsn));
+                throw new InvalidArgumentException('The given AMQP DSN is invalid.');
             }
 
             $parsedUrl = [];
@@ -456,12 +456,12 @@ class Connection
 
     public function ack(\AMQPEnvelope $message, string $queueName): bool
     {
-        return $this->queue($queueName)->ack($message->getDeliveryTag());
+        return $this->queue($queueName)->ack($message->getDeliveryTag()) ?? true;
     }
 
     public function nack(\AMQPEnvelope $message, string $queueName, int $flags = \AMQP_NOPARAM): bool
     {
-        return $this->queue($queueName)->nack($message->getDeliveryTag(), $flags);
+        return $this->queue($queueName)->nack($message->getDeliveryTag(), $flags) ?? true;
     }
 
     public function setup(): void

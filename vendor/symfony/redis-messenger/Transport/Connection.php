@@ -117,6 +117,10 @@ class Connection
      */
     private static function initializeRedis(\Redis $redis, string $host, int $port, $auth, int $serializer, int $dbIndex): \Redis
     {
+        if ($redis->isConnected()) {
+            return $redis;
+        }
+
         $redis->connect($host, $port);
         $redis->setOption(\Redis::OPT_SERIALIZER, $serializer);
 
@@ -162,9 +166,9 @@ class Connection
             $parsedUrl = array_merge(...$parsedUrls);
 
             // Regroup all the hosts in an array interpretable by RedisCluster
-            $parsedUrl['host'] = array_map(function ($parsedUrl, $dsn) {
+            $parsedUrl['host'] = array_map(function ($parsedUrl) {
                 if (!isset($parsedUrl['host'])) {
-                    throw new InvalidArgumentException(sprintf('Missing host in DSN part "%s", it must be defined when using Redis Cluster.', $dsn));
+                    throw new InvalidArgumentException('Missing host in DSN, it must be defined when using Redis Cluster.');
                 }
 
                 return $parsedUrl['host'].':'.($parsedUrl['port'] ?? 6379);
@@ -276,7 +280,7 @@ class Connection
         }
 
         if (false === $parsedUrl = parse_url($url)) {
-            throw new InvalidArgumentException(sprintf('The given Redis DSN "%s" is invalid.', $dsn));
+            throw new InvalidArgumentException('The given Redis DSN is invalid.');
         }
         if (isset($parsedUrl['query'])) {
             parse_str($parsedUrl['query'], $dsnOptions);
@@ -346,7 +350,7 @@ class Connection
         $now = microtime();
         $now = substr($now, 11).substr($now, 2, 3);
 
-        $queuedMessageCount = $this->rawCommand('ZCOUNT', 0, $now);
+        $queuedMessageCount = $this->rawCommand('ZCOUNT', 0, $now) ?? 0;
 
         while ($queuedMessageCount--) {
             if (!$message = $this->rawCommand('ZPOPMIN', 1)) {

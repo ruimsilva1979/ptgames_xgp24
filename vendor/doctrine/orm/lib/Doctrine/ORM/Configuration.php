@@ -13,6 +13,7 @@ use Doctrine\Common\Cache\Cache as CacheDriver;
 use Doctrine\Common\Cache\Psr6\CacheAdapter;
 use Doctrine\Common\Cache\Psr6\DoctrineProvider;
 use Doctrine\Common\Persistence\PersistentObject;
+use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\Deprecations\Deprecation;
 use Doctrine\ORM\Cache\CacheConfiguration;
 use Doctrine\ORM\Cache\Exception\CacheException;
@@ -27,6 +28,7 @@ use Doctrine\ORM\Exception\NotSupported;
 use Doctrine\ORM\Exception\ProxyClassesAlwaysRegenerating;
 use Doctrine\ORM\Exception\UnknownEntityNamespace;
 use Doctrine\ORM\Internal\Hydration\AbstractHydrator;
+use Doctrine\ORM\Mapping\ClassMetadata;
 use Doctrine\ORM\Mapping\ClassMetadataFactory;
 use Doctrine\ORM\Mapping\DefaultEntityListenerResolver;
 use Doctrine\ORM\Mapping\DefaultNamingStrategy;
@@ -62,13 +64,26 @@ use function trim;
  * It combines all configuration options from DBAL & ORM.
  *
  * Internal note: When adding a new configuration option just write a getter/setter pair.
- *
- * @psalm-import-type AutogenerateMode from ProxyFactory
  */
 class Configuration extends \Doctrine\DBAL\Configuration
 {
     /** @var mixed[] */
     protected $_attributes = [];
+
+    /** @psalm-var array<class-string<AbstractPlatform>, ClassMetadata::GENERATOR_TYPE_*> */
+    private $identityGenerationPreferences = [];
+
+    /** @psalm-param array<class-string<AbstractPlatform>, ClassMetadata::GENERATOR_TYPE_*> $value */
+    public function setIdentityGenerationPreferences(array $value): void
+    {
+        $this->identityGenerationPreferences = $value;
+    }
+
+    /** @psalm-return array<class-string<AbstractPlatform>, ClassMetadata::GENERATOR_TYPE_*> $value */
+    public function getIdentityGenerationPreferences(): array
+    {
+        return $this->identityGenerationPreferences;
+    }
 
     /**
      * Sets the directory where Doctrine generates any necessary proxy class files.
@@ -95,8 +110,7 @@ class Configuration extends \Doctrine\DBAL\Configuration
     /**
      * Gets the strategy for automatically generating proxy classes.
      *
-     * @return int Possible values are constants of Doctrine\ORM\Proxy\ProxyFactory.
-     * @psalm-return AutogenerateMode
+     * @return ProxyFactory::AUTOGENERATE_*
      */
     public function getAutoGenerateProxyClasses()
     {
@@ -106,9 +120,7 @@ class Configuration extends \Doctrine\DBAL\Configuration
     /**
      * Sets the strategy for automatically generating proxy classes.
      *
-     * @param bool|int $autoGenerate Possible values are constants of Doctrine\ORM\Proxy\ProxyFactory.
-     * @psalm-param bool|AutogenerateMode $autoGenerate
-     * True is converted to AUTOGENERATE_ALWAYS, false to AUTOGENERATE_NEVER.
+     * @param bool|ProxyFactory::AUTOGENERATE_* $autoGenerate True is converted to AUTOGENERATE_ALWAYS, false to AUTOGENERATE_NEVER.
      *
      * @return void
      */
@@ -164,7 +176,7 @@ class Configuration extends \Doctrine\DBAL\Configuration
      *
      * @return AnnotationDriver
      */
-    public function newDefaultAnnotationDriver($paths = [], $useSimpleAnnotationReader = true)
+    public function newDefaultAnnotationDriver($paths = [], $useSimpleAnnotationReader = true, bool $reportFieldsWhereDeclared = false)
     {
         Deprecation::trigger(
             'doctrine/orm',
@@ -203,14 +215,15 @@ class Configuration extends \Doctrine\DBAL\Configuration
 
         return new AnnotationDriver(
             $reader,
-            (array) $paths
+            (array) $paths,
+            $reportFieldsWhereDeclared
         );
     }
 
     /**
-     * @deprecated No replacement planned.
-     *
      * Adds a namespace under a certain alias.
+     *
+     * @deprecated No replacement planned.
      *
      * @param string $alias
      * @param string $namespace
@@ -1120,5 +1133,25 @@ class Configuration extends \Doctrine\DBAL\Configuration
         }
 
         $this->_attributes['isLazyGhostObjectEnabled'] = $flag;
+    }
+
+    public function setRejectIdCollisionInIdentityMap(bool $flag): void
+    {
+        $this->_attributes['rejectIdCollisionInIdentityMap'] = $flag;
+    }
+
+    public function isRejectIdCollisionInIdentityMapEnabled(): bool
+    {
+        return $this->_attributes['rejectIdCollisionInIdentityMap'] ?? false;
+    }
+
+    public function setEagerFetchBatchSize(int $batchSize = 100): void
+    {
+        $this->_attributes['fetchModeSubselectBatchSize'] = $batchSize;
+    }
+
+    public function getEagerFetchBatchSize(): int
+    {
+        return $this->_attributes['fetchModeSubselectBatchSize'] ?? 100;
     }
 }
