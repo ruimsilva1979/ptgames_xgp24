@@ -71,7 +71,7 @@ class Installation extends Model
         $this->db->query('set @orig_mode = @@global.sql_mode');
 
         // Set sql_mode to one that won't trigger errors...
-        $this->db->query('set @@global.sql_mode = "MYSQL40"');
+        $this->db->query('set @@global.sql_mode = ""');
     }
 
     /**
