@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'xgproyect/xgproyect',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => 'cd8a26dd5cb3f6543a07288e12c325561701ed7f',
+        'pretty_version' => 'v3.4.0',
+        'version' => '3.4.0.0',
+        'reference' => NULL,
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -794,9 +794,9 @@
             'dev_requirement' => true,
         ),
         'xgproyect/xgproyect' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'cd8a26dd5cb3f6543a07288e12c325561701ed7f',
+            'pretty_version' => 'v3.4.0',
+            'version' => '3.4.0.0',
+            'reference' => NULL,
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

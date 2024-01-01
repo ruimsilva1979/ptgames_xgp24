@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitaaaa05e73a538de2f942e5f311820572
+class ComposerStaticInite4168bb8b7f7840882bca07f465655dd
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -293,8 +293,8 @@ class ComposerStaticInitaaaa05e73a538de2f942e5f311820572
         ),
         'Doctrine\\Common\\' => 
         array (
-            0 => __DIR__ . '/..' . '/doctrine/common/src',
-            1 => __DIR__ . '/..' . '/doctrine/event-manager/src',
+            0 => __DIR__ . '/..' . '/doctrine/event-manager/src',
+            1 => __DIR__ . '/..' . '/doctrine/common/src',
         ),
         'DeepCopy\\' => 
         array (
@@ -859,7 +859,6 @@ class ComposerStaticInitaaaa05e73a538de2f942e5f311820572
         'PHPUnit\\TextUI\\XmlConfiguration\\Migrator' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrator.php',
         'PHPUnit\\TextUI\\XmlConfiguration\\MoveAttributesFromFilterWhitelistToCoverage' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveAttributesFromFilterWhitelistToCoverage.php',
         'PHPUnit\\TextUI\\XmlConfiguration\\MoveAttributesFromRootToCoverage' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveAttributesFromRootToCoverage.php',
-        'PHPUnit\\TextUI\\XmlConfiguration\\MoveWhitelistDirectoriesToCoverage' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistDirectoriesToCoverage.php',
         'PHPUnit\\TextUI\\XmlConfiguration\\MoveWhitelistExcludesToCoverage' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistExcludesToCoverage.php',
         'PHPUnit\\TextUI\\XmlConfiguration\\MoveWhitelistIncludesToCoverage' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistIncludesToCoverage.php',
         'PHPUnit\\TextUI\\XmlConfiguration\\PHPUnit' => __DIR__ . '/..' . '/phpunit/phpunit/src/TextUI/XmlConfiguration/PHPUnit/PHPUnit.php',
@@ -1216,9 +1215,9 @@ class ComposerStaticInitaaaa05e73a538de2f942e5f311820572
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitaaaa05e73a538de2f942e5f311820572::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitaaaa05e73a538de2f942e5f311820572::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitaaaa05e73a538de2f942e5f311820572::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite4168bb8b7f7840882bca07f465655dd::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite4168bb8b7f7840882bca07f465655dd::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite4168bb8b7f7840882bca07f465655dd::$classMap;
 
         }, null, ClassLoader::class);
     }
