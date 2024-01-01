@@ -1,0 +1,20 @@
+[
+    {
+        "class_name": "XMLDiff\\Base",
+        "name": "__construct",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "XMLDiff\\Base",
+        "name": "diff",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "XMLDiff\\Base",
+        "name": "merge",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    }
+]

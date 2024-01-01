@@ -1,0 +1,20 @@
+[
+    {
+        "class_name": "php_user_filter",
+        "name": "filter",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "php_user_filter",
+        "name": "onClose",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "php_user_filter",
+        "name": "onCreate",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

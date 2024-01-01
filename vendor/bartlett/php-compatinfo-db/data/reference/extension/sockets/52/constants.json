@@ -1,0 +1,22 @@
+[
+    {
+        "name": "MSG_DONTWAIT",
+        "ext_min": "5.2.10",
+        "php_min": "5.2.10"
+    },
+    {
+        "name": "MSG_EOF",
+        "ext_min": "5.2.4",
+        "php_min": "5.2.4"
+    },
+    {
+        "name": "MSG_EOR",
+        "ext_min": "5.2.4",
+        "php_min": "5.2.4"
+    },
+    {
+        "name": "TCP_NODELAY",
+        "ext_min": "5.2.7",
+        "php_min": "5.2.7"
+    }
+]

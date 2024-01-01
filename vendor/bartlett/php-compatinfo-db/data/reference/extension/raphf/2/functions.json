@@ -1,0 +1,12 @@
+[
+    {
+        "name": "raphf\\clean_persistent_handles",
+        "ext_min": "2.0.0",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "raphf\\stat_persistent_handles",
+        "ext_min": "2.0.0",
+        "php_min": "7.0.0"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "name": "IntlChar",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    }
+]

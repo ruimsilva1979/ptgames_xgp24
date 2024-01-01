@@ -1,0 +1,7 @@
+[
+    {
+        "name": "imap_getacl",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

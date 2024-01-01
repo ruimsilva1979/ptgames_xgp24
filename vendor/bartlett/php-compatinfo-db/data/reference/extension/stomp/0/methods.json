@@ -1,0 +1,98 @@
+[
+    {
+        "class_name": "Stomp",
+        "name": "__construct",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "getSessionId",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "__destruct",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "send",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "subscribe",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "hasFrame",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "readFrame",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "unsubscribe",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "begin",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "commit",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "abort",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "ack",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "error",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "setReadTimeout",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "Stomp",
+        "name": "getReadTimeout",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "class_name": "StompFrame",
+        "name": "__construct",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    }
+]

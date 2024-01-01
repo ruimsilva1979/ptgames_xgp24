@@ -1,0 +1,17 @@
+[
+    {
+        "name": "rar_allow_broken_set",
+        "ext_min": "3.0.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "rar_broken_is",
+        "ext_min": "3.0.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "rar_wrapper_cache_stats",
+        "ext_min": "3.0.0",
+        "php_min": "5.2.0"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "name": "tidy_get_opt_doc",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    }
+]

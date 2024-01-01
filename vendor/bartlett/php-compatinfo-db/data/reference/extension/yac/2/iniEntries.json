@@ -1,0 +1,7 @@
+[
+    {
+        "name": "yac.serializer",
+        "ext_min": "2.2.0",
+        "php_min": "7.0.0"
+    }
+]

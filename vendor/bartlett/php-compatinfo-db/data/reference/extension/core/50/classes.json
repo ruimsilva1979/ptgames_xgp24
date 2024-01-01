@@ -1,0 +1,17 @@
+[
+    {
+        "name": "parent",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "self",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "static",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

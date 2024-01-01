@@ -1,0 +1,22 @@
+[
+    {
+        "name": "LIBEXSLT_DOTTED_VERSION",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "name": "LIBEXSLT_VERSION",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "name": "LIBXSLT_DOTTED_VERSION",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "name": "LIBXSLT_VERSION",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    }
+]

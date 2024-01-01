@@ -1,0 +1,7 @@
+[
+    {
+        "name": "hash_hkdf",
+        "ext_min": "7.1.2",
+        "php_min": "7.1.2"
+    }
+]

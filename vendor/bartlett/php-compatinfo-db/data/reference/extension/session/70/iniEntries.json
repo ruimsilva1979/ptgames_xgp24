@@ -1,0 +1,7 @@
+[
+    {
+        "name": "session.lazy_write",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    }
+]

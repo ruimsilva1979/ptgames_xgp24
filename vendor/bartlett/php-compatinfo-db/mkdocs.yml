@@ -1,0 +1,42 @@
+---
+site_name: PHP CompatinfoDB
+site_url: https://llaville.github.io/php-compatinfo-db
+repo_url: https://github.com/llaville/php-compatinfo-db # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#repository
+site_author: Laurent Laville
+edit_uri: "" # hide edit button -- https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#edit-button
+theme:
+    name: material
+    palette: # Color palette toggle -- https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
+        # editorconfig-checker-disable
+        - scheme: default
+          primary: lime
+          toggle:
+              icon: material/lightbulb-outline
+              name: Switch to dark mode
+        - scheme: slate
+          toggle:
+              icon: material/lightbulb
+              name: Switch to light mode
+        # editorconfig-checker-enable
+    features:
+        - navigation.instant # Instant loading -- https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#instant-loading
+        - navigation.tabs # Navigation tabs -- https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-tabs
+        - navigation.indexes # Section index pages -- https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages
+        - navigation.top # Back-To-Top button -- https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#back-to-top-button
+markdown_extensions:
+    - pymdownx.highlight # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
+    - pymdownx.superfences # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#superfences
+nav:
+    - "Home": index.md
+    - "Getting-Started": getting-started.md
+    - "Architecture":
+          - "Application": application/README.md
+          - "Domain": domain/README.md
+          - "Infrastructure": infrastructure/README.md
+          - "Presentation": presentation/README.md
+    - "Appendix":
+          - "Supported versions": appendix/supported-versions.md
+          - "Versions 1.x": appendix/SUPPORTED-VERSIONS_1.x.md
+          - "Versions 2.x": appendix/SUPPORTED-VERSIONS_2.x.md
+          - "Versions 3.x": appendix/SUPPORTED-VERSIONS_3.x.md
+          - "Supported extensions": appendix/SUPPORTED-EXTENSIONS.md

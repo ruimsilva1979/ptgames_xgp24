@@ -1,0 +1,22 @@
+[
+    {
+        "name": "xhprof_disable",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "xhprof_enable",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "xhprof_sample_disable",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "xhprof_sample_enable",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    }
+]

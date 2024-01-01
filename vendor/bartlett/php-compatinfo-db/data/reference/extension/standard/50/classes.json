@@ -1,0 +1,7 @@
+[
+    {
+        "name": "php_user_filter",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

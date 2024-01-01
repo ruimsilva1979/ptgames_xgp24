@@ -1,0 +1,22 @@
+[
+    {
+        "name": "SOAP_SSL_METHOD_SSLv2",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "SOAP_SSL_METHOD_SSLv23",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "SOAP_SSL_METHOD_SSLv3",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "SOAP_SSL_METHOD_TLS",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "name": "Generator",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    }
+]

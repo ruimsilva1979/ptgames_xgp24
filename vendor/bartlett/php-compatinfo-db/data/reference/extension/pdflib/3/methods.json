@@ -1,0 +1,242 @@
+[
+    {
+        "class_name": "PDFlib",
+        "name": "add_path_point",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "add_portfolio_file",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "add_portfolio_folder",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "align",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "begin_dpart",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "begin_glyph_ext",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "begin_mc",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "begin_pattern_ext",
+        "ext_min": "3.0.2",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "circular_arc",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "close_font",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "close_graphics",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "convert_to_unicode",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "delete_path",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "draw_path",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "ellipse",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "elliptical_arc",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "end_dpart",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "end_template_ext",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "fill_graphicsblock",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "fit_graphics",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "get_option",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "get_string",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "info_graphics",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "info_image",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "info_path",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "info_pdi_page",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "info_pvf",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "load_asset",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "load_graphics",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "mc_point",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "poca_delete",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "poca_insert",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "poca_new",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "poca_remove",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "set_graphics_option",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "set_option",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "set_text_option",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "utf16_to_utf32",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "utf32_to_utf16",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "PDFlib",
+        "name": "utf8_to_utf32",
+        "ext_min": "3.0.1",
+        "php_min": "5.2.0"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "class_name": "Generator",
+        "name": "__wakeup",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "class_name": "Generator",
+        "name": "getReturn",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "class_name": "Generator",
+        "name": "send",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "class_name": "Generator",
+        "name": "throw",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    }
+]

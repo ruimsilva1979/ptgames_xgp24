@@ -1,0 +1,17 @@
+[
+    {
+        "name": "PRIO_PGRP",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "PRIO_PROCESS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "PRIO_USER",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

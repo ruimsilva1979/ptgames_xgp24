@@ -1,7 +1,7 @@
 #
 # application
 #
-config/config.php
+#config/config.php
 
 #
 # public
@@ -19,29 +19,29 @@ storage/logs/*.txt
 #
 # tests
 #
-tests/.phpunit.result.cache
-tests/build/
-tests/_reports/
+#tests/.phpunit.result.cache
+#tests/build/
+#tests/_reports/
 
 #
 # docs
 #
-.phpdoc/*
-/docs/*
+#.phpdoc/*
+#/docs/*
 
 #
 # docker
 #
-data/xgp.sql
+#data/xgp.sql
 
 #
 # IDE
 #
 *.code-workspace
-nbproject/
+#nbproject/
 
 #
 # composer
 #
-/vendor
+#/vendor
 composer.lock

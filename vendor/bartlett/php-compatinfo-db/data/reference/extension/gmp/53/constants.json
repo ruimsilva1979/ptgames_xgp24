@@ -1,0 +1,8 @@
+[
+    {
+        "name": "GMP_MPIR_VERSION",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0",
+        "optional": true
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "PASSWORD_ARGON2I",
+        "ext_min": "7.2.0alpha1",
+        "php_min": "7.2.0alpha1"
+    },
+    {
+        "name": "PASSWORD_ARGON2_DEFAULT_MEMORY_COST",
+        "ext_min": "7.2.0alpha1",
+        "php_min": "7.2.0alpha1"
+    },
+    {
+        "name": "PASSWORD_ARGON2_DEFAULT_TIME_COST",
+        "ext_min": "7.2.0alpha1",
+        "php_min": "7.2.0alpha1"
+    },
+    {
+        "name": "PASSWORD_ARGON2_DEFAULT_THREADS",
+        "ext_min": "7.2.0alpha1",
+        "php_min": "7.2.0alpha1"
+    }
+]

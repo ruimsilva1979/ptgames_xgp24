@@ -1,0 +1,22 @@
+[
+    {
+        "name": "socket_addrinfo_lookup",
+        "ext_min": "7.2.0",
+        "php_min": "7.2.0alpha1"
+    },
+    {
+        "name": "socket_addrinfo_connect",
+        "ext_min": "7.2.0",
+        "php_min": "7.2.0alpha1"
+    },
+    {
+        "name": "socket_addrinfo_bind",
+        "ext_min": "7.2.0",
+        "php_min": "7.2.0alpha1"
+    },
+    {
+        "name": "socket_addrinfo_explain",
+        "ext_min": "7.2.0",
+        "php_min": "7.2.0alpha1"
+    }
+]

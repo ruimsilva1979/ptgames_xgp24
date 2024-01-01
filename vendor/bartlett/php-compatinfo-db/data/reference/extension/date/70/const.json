@@ -1,0 +1,8 @@
+[
+    {
+        "class_name": "DateTime",
+        "name": "RFC3339_EXTENDED",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    }
+]

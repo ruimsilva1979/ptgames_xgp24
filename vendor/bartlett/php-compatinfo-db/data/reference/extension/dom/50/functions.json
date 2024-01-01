@@ -1,0 +1,7 @@
+[
+    {
+        "name": "dom_import_simplexml",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

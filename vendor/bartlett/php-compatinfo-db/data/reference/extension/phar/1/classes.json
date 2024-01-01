@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Phar",
+        "ext_min": "1.0.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "PharException",
+        "ext_min": "1.0.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "PharFileInfo",
+        "ext_min": "1.0.0",
+        "php_min": "5.2.0"
+    }
+]

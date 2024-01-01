@@ -1,0 +1,20 @@
+[
+    {
+        "class_name": "RarEntry",
+        "name": "getRedirType",
+        "ext_min": "4.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "isRedirectToDirectory",
+        "ext_min": "4.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "getRedirTarget",
+        "ext_min": "4.0.0",
+        "php_min": "5.3.0"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "pcntl_getpriority",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "pcntl_setpriority",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "pcntl_wait",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

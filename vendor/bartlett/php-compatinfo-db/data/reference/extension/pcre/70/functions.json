@@ -1,0 +1,7 @@
+[
+    {
+        "name": "preg_replace_callback_array",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    }
+]

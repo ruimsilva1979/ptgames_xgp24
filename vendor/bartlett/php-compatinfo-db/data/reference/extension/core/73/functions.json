@@ -1,0 +1,7 @@
+[
+    {
+        "name": "gc_status",
+        "ext_min": "7.3.0",
+        "php_min": "7.3.0alpha1"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "class_name": "SplPriorityQueue",
+        "name": "getExtractFlags",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "SplPriorityQueue",
+        "name": "isCorrupted",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "SplHeap",
+        "name": "isCorrupted",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    }
+]

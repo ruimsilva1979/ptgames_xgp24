@@ -1,0 +1,158 @@
+name: Tests
+
+on:
+    # Trigger mega-linter at every push. Action will also be visible from Pull Requests to master
+    push: # Comment this line to trigger action only on pull-requests (not recommended if you don't pay for GH Actions)
+        paths-ignore:
+            - 'docs/**'
+    pull_request:
+        branches: [master]
+        paths-ignore:
+            - 'docs/**'
+
+concurrency:
+    group: ${{ github.ref }}-${{ github.workflow }}
+    cancel-in-progress: true
+
+jobs:
+    lint_files:
+        name: Lint Code Base
+
+        runs-on: ${{ matrix.os }}
+
+        strategy:
+            fail-fast: false
+            matrix:
+                os:
+                    - ubuntu-latest
+                php:
+                    - 7.4
+
+        steps:
+            -   # Git Checkout
+                name: Checkout Code
+                uses: actions/checkout@v2
+                with:
+                    token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
+                    fetch-depth: 0
+
+            -   # Setup PHP runtime
+                name: Setup PHP runtime
+                uses: "shivammathur/setup-php@v2"
+                with:
+                    php-version: ${{ matrix.php }}
+
+            -   # Install Composer dependencies
+                name: Install Composer dependencies
+                uses: "ramsey/composer-install@v1"
+                with:
+                    dependency-versions: "highest"
+                    composer-options: "--prefer-dist --no-scripts"
+
+            -   # Mega-Linter
+                name: Mega-Linter
+                id: ml
+                    # You can override Mega-Linter flavor used to have faster performances
+                    # More info at https://megalinter.github.io/latest/flavors/
+                uses: megalinter/megalinter/flavors/php@v5
+                env:
+                    # All available variables are described in documentation
+                    # https://megalinter.github.io/latest/configuration/
+                    # Validates all source when push on master, else just the git diff with master. Override with true if you always want to lint all sources
+                    VALIDATE_ALL_CODEBASE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+                    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                    # ADD YOUR CUSTOM ENV VARIABLES HERE OR DEFINE THEM IN A FILE .mega-linter.yml AT THE ROOT OF YOUR REPOSITORY
+                    # DISABLE: COPYPASTE,SPELL # Uncomment to disable copy-paste and spell checks
+                    LOG_LEVEL: INFO
+                    TEXT_REPORTER: false
+
+    php_tests:
+        needs: lint_files
+
+        runs-on: ${{ matrix.os }}
+
+        strategy:
+            fail-fast: false
+            matrix:
+                include:
+                    -
+                        os: ubuntu-latest
+                        php: 7.4
+                        extensions: amqp,apc,apcu,ast,bcmath,bz2,calendar,core,ctype,curl,date,dom,exif,fileinfo,filter,ftp,gd,gender,geoip,gettext,gmp,hash,iconv,igbinary,imagick,imap,intl,jsmin,json,ldap,libxml,lzf,mailparse,mbstring,mcrypt,memcache,memcached,msgpack,mysqli,oci8-2.2.0,odbc,openssl,pcntl,pcre,pdo,pgsql,phar,posix,raphf,propro,pecl_http-3.2.4,rar,rdkafka,readline,redis,reflection,session,shmop,simplexml,snmp,soap,sockets,solr,spl,sqlite3,ssh2,standard,stomp,sync,sysvmsg,sysvsem,sysvshm,tidy,tokenizer,uploadprogress,uuid,xhprof,xlswriter,xml,xmldiff,xmlreader,xmlrpc,xmlwriter,xsl,yaml,zip,zlib
+                        tools: phpunit
+                    -
+                        os: ubuntu-latest
+                        php: 8.0
+                        extensions: amqp,apcu,ast,bcmath,bz2,calendar,core,ctype,curl,date,dom,enchant,exif,fileinfo,filter,ftp,gd,gettext,gmp,hash,iconv,igbinary,imagick,imap,intl,json,ldap,libxml,lzf,mailparse,mbstring,mcrypt,memcache,memcached,msgpack,mysqli,oauth,oci8,opcache,openssl,pcntl,pcre,pdo,pgsql,phar,posix,raphf,pecl_http,rar,rdkafka,readline,redis,reflection,session,shmop,simplexml,sockets,spl,sqlite3,ssh2-beta,standard,sysvmsg,sysvsem,sysvshm,tokenizer,uuid,xdebug,xhprof,xlswriter,xml,xmldiff,xmlreader,xmlwriter,xsl,yac,zip,zlib
+                        tools: phpunit
+                    -
+                        os: ubuntu-latest
+                        php: 8.1
+                        extensions: amqp,apcu,ast,bcmath,bz2,calendar,core,ctype,curl,date,dom,enchant,exif,fileinfo,filter,ftp,gd,gettext,gmp,hash,iconv,igbinary,imagick,imap,intl,json,ldap,libxml,lzf,mbstring,mcrypt,memcache,memcached,msgpack,mysqli,oauth,oci8,opcache,openssl,pcntl,pcre,pdo,pgsql,phar,posix,raphf,pecl_http,readline,redis,reflection,session,shmop,simplexml,sockets,spl,sqlite3,ssh2-beta,standard,sysvmsg,sysvsem,sysvshm,tokenizer,uuid,xdebug,xhprof,xml,xmldiff,xmlreader,xmlwriter,xsl,yac,zip,zlib
+                        tools: phpunit
+
+        name: Test DB References
+
+        env:
+            APP_ENV: dev  # see explains at https://github.com/llaville/php-compatinfo-db/issues/101
+            DATABASE_URL: "sqlite:///${{ github.workspace }}/.cache/compatinfo-db.sqlite"
+
+        steps:
+            -   # Git Checkout
+                name: Checkout
+                uses: actions/checkout@v2
+
+            -   # Setup Libraries
+                name: Setup Libraries
+                run: |
+                    sudo apt-get update
+                    sudo apt-fast install libcurl4-openssl-dev -y
+                    sudo apt-fast install libssh2-1-dev -y
+                    sudo apt-fast install librdkafka-dev -y
+
+            -   # Setup cache environment
+                name: Setup cache environment
+                id: extcache
+                uses: shivammathur/cache-extensions@v1
+                with:
+                    php-version: ${{ matrix.php }}
+                    extensions: ${{ matrix.extensions }}
+                    key: cache-v3
+
+            -   # Cache extensions
+                name: Cache extensions
+                uses: actions/cache@v2
+                with:
+                    path: ${{ steps.extcache.outputs.dir }}
+                    key: ${{ steps.extcache.outputs.key }}
+                    restore-keys: ${{ steps.extcache.outputs.key }}
+
+            -   # Setup PHP runtime
+                name: Setup PHP runtime
+                uses: shivammathur/setup-php@v2
+                with:
+                    php-version: ${{ matrix.php }}
+                    extensions: ${{ matrix.extensions }}
+                    tools: ${{ matrix.tools }}
+
+            -   # Install Composer dependencies
+                name: Install Composer dependencies
+                uses: "ramsey/composer-install@v1"
+                with:
+                    dependency-versions: "highest"
+                    composer-options: "--prefer-dist --no-scripts"
+
+            -   # Build Database
+                name: Build Database
+                run: |
+                    bin/compatinfo-db db:create --ansi
+
+            -   # Check Database
+                name: Check Database
+                run: |
+                    bin/compatinfo-db diagnose --ansi
+                    bin/compatinfo-db db:list --ansi --all
+
+            -   # Run unit tests
+                name: Unit tests
+                run: bin/compatinfo-db doctor --ansi --with-tests

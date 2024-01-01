@@ -1,0 +1,42 @@
+[
+    {
+        "name": "readline",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "readline_add_history",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "readline_clear_history",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "readline_completion_function",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "readline_info",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "readline_list_history",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "readline_read_history",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "readline_write_history",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    }
+]

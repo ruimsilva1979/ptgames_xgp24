@@ -1,0 +1,7 @@
+[
+    {
+        "name": "posix_initgroups",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    }
+]

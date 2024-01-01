@@ -1,0 +1,7 @@
+[
+    {
+        "name": "preg_last_error",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    }
+]

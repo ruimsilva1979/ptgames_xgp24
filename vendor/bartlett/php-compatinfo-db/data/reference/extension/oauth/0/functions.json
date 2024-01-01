@@ -1,0 +1,12 @@
+[
+    {
+        "name": "oauth_get_sbs",
+        "ext_min": "0.99.8",
+        "php_min": "5.1.0"
+    },
+    {
+        "name": "oauth_urlencode",
+        "ext_min": "0.99.1",
+        "php_min": "5.1.0"
+    }
+]

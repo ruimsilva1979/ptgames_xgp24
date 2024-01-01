@@ -1,0 +1,7 @@
+[
+    {
+        "name": "SessionIdInterface",
+        "ext_min": "5.5.1",
+        "php_min": "5.5.1"
+    }
+]

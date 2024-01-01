@@ -1,0 +1,182 @@
+[
+    {
+        "class_name": "DateTime",
+        "name": "__construct",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "__set_state",
+        "static": true,
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "modify",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "setTimezone",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "setTime",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "setDate",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "setISODate",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "createFromFormat",
+        "static": true,
+        "ext_min": "5.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "getLastErrors",
+        "static": true,
+        "ext_min": "5.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "add",
+        "ext_min": "5.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "sub",
+        "ext_min": "5.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "diff",
+        "ext_min": "5.2.0",
+        "php_min": "5.3.0",
+        "php_max": "5.4.37",
+        "prototype": "DateTimeInterface"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "format",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0",
+        "php_max": "5.4.37",
+        "prototype": "DateTimeInterface"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "__wakeup",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0",
+        "php_max": "5.4.37",
+        "prototype": "DateTimeInterface"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "getTimezone",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0",
+        "php_max": "5.4.37",
+        "prototype": "DateTimeInterface"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "getOffset",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0",
+        "php_max": "5.4.37",
+        "prototype": "DateTimeInterface"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "getTimestamp",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0",
+        "php_max": "5.4.37",
+        "prototype": "DateTimeInterface"
+    },
+    {
+        "class_name": "DateTime",
+        "name": "setTimestamp",
+        "ext_min": "5.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DateTimeZone",
+        "name": "__construct",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTimeZone",
+        "name": "__wakeup",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTimeZone",
+        "name": "__set_state",
+        "static": true,
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTimeZone",
+        "name": "getName",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTimeZone",
+        "name": "getOffset",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTimeZone",
+        "name": "getTransitions",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTimeZone",
+        "name": "getLocation",
+        "ext_min": "5.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DateTimeZone",
+        "name": "listAbbreviations",
+        "static": true,
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "DateTimeZone",
+        "name": "listIdentifiers",
+        "static": true,
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    }
+]

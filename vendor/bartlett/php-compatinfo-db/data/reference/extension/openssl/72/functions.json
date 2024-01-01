@@ -1,0 +1,7 @@
+[
+    {
+        "name": "openssl_pkcs7_read",
+        "ext_min": "7.2.0alpha3",
+        "php_min": "7.2.0alpha3"
+    }
+]

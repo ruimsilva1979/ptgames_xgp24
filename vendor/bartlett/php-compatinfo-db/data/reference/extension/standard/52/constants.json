@@ -1,0 +1,27 @@
+[
+    {
+        "name": "FILE_BINARY",
+        "ext_min": "5.2.7",
+        "php_min": "5.2.7"
+    },
+    {
+        "name": "FILE_TEXT",
+        "ext_min": "5.2.7",
+        "php_min": "5.2.7"
+    },
+    {
+        "name": "GLOB_AVAILABLE_FLAGS",
+        "ext_min": "5.2.4",
+        "php_min": "5.2.4"
+    },
+    {
+        "name": "PATHINFO_FILENAME",
+        "ext_min": "5.2.0RC1",
+        "php_min": "5.2.0RC1"
+    },
+    {
+        "name": "STREAM_IS_URL",
+        "ext_min": "5.2.4",
+        "php_min": "5.2.4"
+    }
+]

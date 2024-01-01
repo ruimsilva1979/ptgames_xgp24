@@ -1,0 +1,27 @@
+[
+    {
+        "name": "yaml.decode_binary",
+        "ext_min": "0.6.2",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "yaml.decode_timestamp",
+        "ext_min": "0.6.2",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "yaml.output_canonical",
+        "ext_min": "0.6.2",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "yaml.output_indent",
+        "ext_min": "0.6.2",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "yaml.output_width",
+        "ext_min": "0.6.2",
+        "php_min": "5.2.0"
+    }
+]

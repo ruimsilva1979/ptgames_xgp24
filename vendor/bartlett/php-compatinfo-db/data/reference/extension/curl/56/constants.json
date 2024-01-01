@@ -1,0 +1,13 @@
+[
+    {
+        "name": "CURLM_ADDED_ALREADY",
+        "ext_min": "5.6.20RC1",
+        "php_min": "5.6.20RC1",
+        "dependencies": [
+            {
+                "name": "libcurl",
+                "constraint": ">=7.32.1"
+            }
+        ]
+    }
+]

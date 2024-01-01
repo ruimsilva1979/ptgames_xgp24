@@ -1,0 +1,12 @@
+[
+    {
+        "name": "igbinary_serialize",
+        "ext_min": "1.1.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "igbinary_unserialize",
+        "ext_min": "1.1.1",
+        "php_min": "5.2.0"
+    }
+]

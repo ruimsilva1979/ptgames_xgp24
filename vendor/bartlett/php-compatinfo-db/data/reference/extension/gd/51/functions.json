@@ -1,0 +1,7 @@
+[
+    {
+        "name": "imageconvolution",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    }
+]

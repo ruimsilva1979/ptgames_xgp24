@@ -1,0 +1,17 @@
+[
+    {
+        "name": "date_sunrise",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "date_sunset",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "idate",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

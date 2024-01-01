@@ -1,0 +1,27 @@
+[
+    {
+        "name": "redis.clusters.cache_slots",
+        "ext_min": "5.0.0RC1",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "redis.pconnect.echo_check_liveness",
+        "ext_min": "5.2.2",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "redis.pconnect.pool_pattern",
+        "ext_min": "5.3.0RC1",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "redis.pconnect.pool_detect_dirty",
+        "ext_min": "5.3.5RC1",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "redis.pconnect.pool_poll_timeout",
+        "ext_min": "5.3.5RC1",
+        "php_min": "7.0.0"
+    }
+]

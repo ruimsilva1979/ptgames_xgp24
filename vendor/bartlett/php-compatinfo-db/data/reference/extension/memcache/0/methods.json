@@ -1,0 +1,8 @@
+[
+    {
+        "class_name": "Memcache",
+        "name": "pconnect",
+        "ext_min": "0.2",
+        "php_min": "4.3.3"
+    }
+]

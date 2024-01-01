@@ -1,0 +1,12 @@
+[
+    {
+        "name": "intl.default_locale",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "intl.error_level",
+        "ext_min": "1.0.3",
+        "php_min": "5.2.4"
+    }
+]

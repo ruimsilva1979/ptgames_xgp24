@@ -1,0 +1,38 @@
+[
+    {
+        "class_name": "SessionHandlerInterface",
+        "name": "close",
+        "ext_min": "5.4.0",
+        "php_min": "5.4.0"
+    },
+    {
+        "class_name": "SessionHandlerInterface",
+        "name": "destroy",
+        "ext_min": "5.4.0",
+        "php_min": "5.4.0"
+    },
+    {
+        "class_name": "SessionHandlerInterface",
+        "name": "gc",
+        "ext_min": "5.4.0",
+        "php_min": "5.4.0"
+    },
+    {
+        "class_name": "SessionHandlerInterface",
+        "name": "open",
+        "ext_min": "5.4.0",
+        "php_min": "5.4.0"
+    },
+    {
+        "class_name": "SessionHandlerInterface",
+        "name": "read",
+        "ext_min": "5.4.0",
+        "php_min": "5.4.0"
+    },
+    {
+        "class_name": "SessionHandlerInterface",
+        "name": "write",
+        "ext_min": "5.4.0",
+        "php_min": "5.4.0"
+    }
+]

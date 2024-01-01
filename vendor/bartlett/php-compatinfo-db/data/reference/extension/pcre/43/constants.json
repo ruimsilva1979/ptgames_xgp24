@@ -1,0 +1,12 @@
+[
+    {
+        "name": "PREG_OFFSET_CAPTURE",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "PREG_SPLIT_OFFSET_CAPTURE",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    }
+]

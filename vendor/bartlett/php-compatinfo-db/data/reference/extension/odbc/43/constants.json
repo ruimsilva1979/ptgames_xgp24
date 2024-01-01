@@ -1,0 +1,12 @@
+[
+    {
+        "name": "SQL_FETCH_FIRST",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "SQL_FETCH_NEXT",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    }
+]

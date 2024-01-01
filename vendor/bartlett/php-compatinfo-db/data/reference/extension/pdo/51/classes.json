@@ -1,0 +1,22 @@
+[
+    {
+        "name": "PDO",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "name": "PDOException",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "name": "PDORow",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "name": "PDOStatement",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    }
+]

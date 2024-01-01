@@ -1,0 +1,7 @@
+[
+    {
+        "name": "LIBXML_PARSEHUGE",
+        "ext_min": "5.2.12",
+        "php_min": "5.2.12"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "name": "ASSERT_EXCEPTION",
+        "ext_min": "7.0.2",
+        "php_min": "7.0.2"
+    },
+    {
+        "name": "DNS_CAA",
+        "ext_min": "7.0.16RC1",
+        "php_min": "7.0.16"
+    }
+]

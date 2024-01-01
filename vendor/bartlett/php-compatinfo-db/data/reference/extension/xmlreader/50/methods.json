@@ -1,0 +1,168 @@
+[
+    {
+        "class_name": "XMLReader",
+        "name": "XML",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "XML",
+        "static": true,
+        "ext_min": "8.0.0",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "close",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "expand",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "getAttributeNo",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "getAttributeNs",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "getAttribute",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "getParserProperty",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "isValid",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "lookupNamespace",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "moveToAttributeNo",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "moveToAttributeNs",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "moveToAttribute",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "moveToElement",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "moveToFirstAttribute",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "moveToNextAttribute",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "next",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "open",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "open",
+        "static": true,
+        "ext_min": "8.0.0",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "readInnerXml",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "readOuterXml",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "readString",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "read",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "setParserProperty",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "setRelaxNGSchemaSource",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "setRelaxNGSchema",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XMLReader",
+        "name": "setSchema",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

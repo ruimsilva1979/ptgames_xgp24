@@ -1,0 +1,8 @@
+[
+    {
+        "class_name": "SessionIdInterface",
+        "name": "create_sid",
+        "ext_min": "5.5.1",
+        "php_min": "5.5.1"
+    }
+]

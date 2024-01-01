@@ -1,0 +1,12 @@
+[
+    {
+        "name": "PHP_INT_MAX",
+        "ext_min": "4.4.0",
+        "php_min": "4.4.0"
+    },
+    {
+        "name": "PHP_INT_SIZE",
+        "ext_min": "4.4.0",
+        "php_min": "4.4.0"
+    }
+]

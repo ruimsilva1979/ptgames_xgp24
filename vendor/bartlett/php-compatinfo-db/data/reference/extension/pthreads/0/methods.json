@@ -1,0 +1,416 @@
+[
+    {
+        "class_name": "Cond",
+        "name": "create",
+        "static": true,
+        "ext_min": "0.0.39",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Cond",
+        "name": "signal",
+        "static": true,
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Cond",
+        "name": "wait",
+        "static": true,
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Cond",
+        "name": "broadcast",
+        "static": true,
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Cond",
+        "name": "destroy",
+        "static": true,
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Mutex",
+        "name": "create",
+        "static": true,
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Mutex",
+        "name": "lock",
+        "static": true,
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Mutex",
+        "name": "trylock",
+        "static": true,
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Mutex",
+        "name": "unlock",
+        "static": true,
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Mutex",
+        "name": "destroy",
+        "static": true,
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Cond",
+        "name": "__construct",
+        "ext_min": "0.0.39",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Mutex",
+        "name": "__construct",
+        "ext_min": "0.0.39",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "detach",
+        "ext_min": "0.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "getCreatorId",
+        "ext_min": "0.0.36",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "getThread",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "getThreadId",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "getCurrentThreadId",
+        "static": true,
+        "ext_min": "0.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "getCount",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "getMax",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "getPeak",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "isRunning",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "isWaiting",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "isJoined",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "isStarted",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "isBusy",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "isTerminated",
+        "ext_min": "0.0.44",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "getTerminationInfo",
+        "ext_min": "0.0.45",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "join",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "kill",
+        "ext_min": "0.0.33",
+        "ext_max": "3.0.6",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "notify",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "start",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "wait",
+        "ext_min": "0.0.33",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "synchronized",
+        "ext_min": "0.0.40",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "lock",
+        "ext_min": "0.0.40",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "unlock",
+        "ext_min": "0.0.40",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "merge",
+        "ext_min": "0.0.44",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "shift",
+        "ext_min": "0.0.45",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "chunk",
+        "ext_min": "0.0.45",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Thread",
+        "name": "pop",
+        "ext_min": "0.0.45",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "shutdown",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "stack",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "unstack",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "getStacked",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "isShutdown",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "isWorking",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "start",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "join",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "detach",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "isStarted",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "isJoined",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "getThreadId",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "getCreatorId",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "kill",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "run",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "wait",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "notify",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "isRunning",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "isWaiting",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "isTerminated",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "getTerminationInfo",
+        "ext_min": "0.0.37",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "synchronized",
+        "ext_min": "0.0.40",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "lock",
+        "ext_min": "0.0.40",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "unlock",
+        "ext_min": "0.0.40",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "merge",
+        "ext_min": "0.0.44",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "shift",
+        "ext_min": "0.0.45",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "chunk",
+        "ext_min": "0.0.45",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Worker",
+        "name": "pop",
+        "ext_min": "0.0.45",
+        "php_min": "5.3.0"
+    }
+]

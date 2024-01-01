@@ -1,0 +1,7 @@
+[
+    {
+        "name": "mssql.charset",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    }
+]

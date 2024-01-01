@@ -1,0 +1,12 @@
+[
+    {
+        "name": "bson_decode",
+        "ext_min": "1.0.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "name": "bson_encode",
+        "ext_min": "1.0.1",
+        "php_min": "5.1.0"
+    }
+]

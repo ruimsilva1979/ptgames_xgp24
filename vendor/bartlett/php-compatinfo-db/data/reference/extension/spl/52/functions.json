@@ -1,0 +1,7 @@
+[
+    {
+        "name": "spl_object_hash",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    }
+]

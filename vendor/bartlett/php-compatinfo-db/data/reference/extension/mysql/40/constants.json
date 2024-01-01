@@ -1,0 +1,17 @@
+[
+    {
+        "name": "MYSQL_ASSOC",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "MYSQL_BOTH",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "MYSQL_NUM",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    }
+]

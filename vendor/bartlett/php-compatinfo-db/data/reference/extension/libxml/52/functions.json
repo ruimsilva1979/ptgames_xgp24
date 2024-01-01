@@ -1,0 +1,7 @@
+[
+    {
+        "name": "libxml_disable_entity_loader",
+        "ext_min": "5.2.11",
+        "php_min": "5.2.11"
+    }
+]

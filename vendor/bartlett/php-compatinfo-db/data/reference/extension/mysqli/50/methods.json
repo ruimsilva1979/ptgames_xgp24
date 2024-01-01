@@ -1,0 +1,479 @@
+[
+    {
+        "class_name": "mysqli",
+        "name": "mysqli",
+        "ext_min": "5.0.0",
+        "ext_max": "6.0.0",
+        "php_min": "5.0.0",
+        "php_max": "6.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "autocommit",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "begin_transaction",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "change_user",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "character_set_name",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "close",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "commit",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "connect",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "debug",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "dump_debug_info",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "escape_string",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "get_charset",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "get_client_info",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "get_connection_stats",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "get_server_info",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "get_warnings",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "init",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "kill",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "more_results",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "multi_query",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "next_result",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "options",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "ping",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "prepare",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "query",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "real_connect",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "real_escape_string",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "real_query",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "reap_async_query",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "refresh",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "release_savepoint",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "rollback",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "savepoint",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "select_db",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "set_charset",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "set_opt",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "ssl_set",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "stat",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "stmt_init",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "store_result",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "thread_safe",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "use_result",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli",
+        "name": "poll",
+        "static": true,
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "close",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "data_seek",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "fetch_all",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "fetch_array",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "fetch_assoc",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "fetch_field",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "fetch_field_direct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "fetch_fields",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "fetch_object",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "fetch_row",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "field_seek",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "free",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_result",
+        "name": "free_result",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "attr_get",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "attr_set",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "bind_param",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "bind_result",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "close",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "data_seek",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "execute",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "fetch",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "free_result",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "get_result",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "get_warnings",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "more_results",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "next_result",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "num_rows",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "prepare",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "reset",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "result_metadata",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "send_long_data",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_stmt",
+        "name": "store_result",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "mysqli_warning",
+        "name": "next",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

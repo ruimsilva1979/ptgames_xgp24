@@ -1,0 +1,7 @@
+[
+    {
+        "name": "MYSQLI_OPT_CAN_HANDLE_EXPIRED_PASSWORDS",
+        "ext_min": "5.4.12",
+        "php_min": "5.4.12"
+    }
+]

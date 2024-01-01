@@ -1,0 +1,81 @@
+{
+    "name": "bartlett/php-compatinfo-db",
+    "description": "Reference Database of all functions, constants, classes, interfaces on PHP standard distribution and about 110 extensions",
+    "keywords": ["compatibility", "database", "reference"],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/llaville/php-compatinfo-db",
+    "support": {
+        "source": "https://github.com/llaville/php-compatinfo-db",
+        "issues": "https://github.com/llaville/php-compatinfo-db/issues"
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "ext-pcre": "*",
+        "ext-pdo": "*",
+        "ext-phar": "*",
+        "ext-spl": "*",
+        "composer-runtime-api": "^2.0",
+        "composer/semver": "^3.0",
+        "doctrine/annotations": "^1.13",
+        "doctrine/orm": "^2.7",
+        "doctrine/dbal": "^3.2",
+        "symfony/cache": "^4.4|^5.0",
+        "symfony/config": "^4.4|^5.0",
+        "symfony/console": "^4.4|^5.0",
+        "symfony/dependency-injection": "^4.4|^5.0",
+        "symfony/event-dispatcher": "^4.4|^5.0",
+        "symfony/finder": "^4.4|^5.0",
+        "symfony/messenger": "^4.4|^5.0",
+        "symfony/process": "^4.4|^5.0",
+        "symfony/requirements-checker": "^2.0",
+        "symfony/stopwatch": "^4.4|^5.0"
+    },
+    "require-dev": {
+        "bartlett/graph-uml": "^1.2",
+        "composer/composer": "^2.0",
+        "psr/log": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Laurent Laville",
+            "homepage": "https://github.com/llaville",
+            "role": "Lead"
+        },
+        {
+            "name": "Remi Collet",
+            "homepage": "https://github.com/remicollet",
+            "role": "Contributor"
+        }
+    ],
+    "bin": [
+        "bin/compatinfo-db"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bartlett\\CompatInfoDb\\": "src/"
+        },
+        "files": ["src/Infrastructure/Framework/Symfony/Polyfill.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bartlett\\CompatInfoDb\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "platform": {
+            "php": "7.4.0"
+        },
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "cweagans/composer-patches": true
+        }
+    },
+    "extra": {
+        "enable-patching": true
+    }
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "name": "ICONV_IMPL",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "ICONV_VERSION",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    }
+]

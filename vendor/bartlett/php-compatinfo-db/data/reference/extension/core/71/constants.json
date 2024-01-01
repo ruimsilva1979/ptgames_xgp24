@@ -1,0 +1,7 @@
+[
+    {
+        "name": "PHP_FD_SETSIZE",
+        "ext_min": "7.1.0",
+        "php_min": "7.1.0alpha1"
+    }
+]

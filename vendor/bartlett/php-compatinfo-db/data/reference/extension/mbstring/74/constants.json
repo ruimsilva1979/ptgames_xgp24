@@ -1,0 +1,7 @@
+[
+    {
+        "name": "MB_ONIGURUMA_VERSION",
+        "ext_min": "7.4.0",
+        "php_min": "7.4.0"
+    }
+]

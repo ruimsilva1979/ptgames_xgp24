@@ -1,0 +1,7 @@
+[
+    {
+        "name": "intl.use_exceptions",
+        "ext_min": "3.0.0",
+        "php_min": "5.2.4"
+    }
+]

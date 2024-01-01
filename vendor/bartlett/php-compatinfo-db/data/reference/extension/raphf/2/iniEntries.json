@@ -1,0 +1,7 @@
+[
+    {
+        "name": "raphf.persistent_handle.limit",
+        "ext_min": "2.0.0",
+        "php_min": "7.0.0"
+    }
+]

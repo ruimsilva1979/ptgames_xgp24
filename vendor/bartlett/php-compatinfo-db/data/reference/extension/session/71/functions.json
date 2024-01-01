@@ -1,0 +1,12 @@
+[
+    {
+        "name": "session_create_id",
+        "ext_min": "7.1.0",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "name": "session_gc",
+        "ext_min": "7.1.0",
+        "php_min": "7.1.0alpha1"
+    }
+]

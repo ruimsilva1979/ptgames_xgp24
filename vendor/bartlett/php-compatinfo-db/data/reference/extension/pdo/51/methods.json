@@ -1,0 +1,231 @@
+[
+    {
+        "class_name": "PDO",
+        "name": "__construct",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "__sleep",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "__wakeup",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "beginTransaction",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "commit",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "errorCode",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "errorInfo",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "exec",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "getAttribute",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "inTransaction",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "lastInsertId",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "prepare",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "query",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "quote",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "rollBack",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "setAttribute",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDO",
+        "name": "getAvailableDrivers",
+        "static": true,
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "__sleep",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "__wakeup",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "bindColumn",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "bindParam",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "bindValue",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "closeCursor",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "columnCount",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "debugDumpParams",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "errorCode",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "errorInfo",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "execute",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "fetchAll",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "fetchColumn",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "fetchObject",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "fetch",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "getAttribute",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "getColumnMeta",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "nextRowset",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "rowCount",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "setAttribute",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "PDOStatement",
+        "name": "setFetchMode",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    }
+]

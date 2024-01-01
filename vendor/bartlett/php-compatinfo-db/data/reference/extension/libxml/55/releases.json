@@ -1,0 +1,8 @@
+[
+    {
+        "rel_version": "5.5.2",
+        "rel_date": "2013-08-15",
+        "rel_state": "stable",
+        "php_min": "5.5.2"
+    }
+]

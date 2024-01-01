@@ -1,0 +1,12 @@
+[
+    {
+        "name": "RecursiveRegexIterator",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "RegexIterator",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    }
+]

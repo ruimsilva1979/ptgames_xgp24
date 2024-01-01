@@ -1,0 +1,22 @@
+[
+    {
+        "name": "STREAM_IPPROTO_ICMP",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "name": "STREAM_IPPROTO_RAW",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "name": "STREAM_IPPROTO_TCP",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "name": "STREAM_IPPROTO_UDP",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    }
+]

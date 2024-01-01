@@ -1,0 +1,93 @@
+[
+    {
+        "class_name": "ReflectionClass",
+        "name": "isAnonymous",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "hasReturnType",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getReturnType",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "hasType",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "getType",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionGenerator",
+        "name": "__construct",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionGenerator",
+        "name": "getExecutingFile",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionGenerator",
+        "name": "getExecutingGenerator",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionGenerator",
+        "name": "getExecutingLine",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionGenerator",
+        "name": "getFunction",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionGenerator",
+        "name": "getThis",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionGenerator",
+        "name": "getTrace",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionType",
+        "name": "__toString",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionType",
+        "name": "allowsNull",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionType",
+        "name": "isBuiltin",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1",
+        "php_max": "7.4.27"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "name": "zend.exception_ignore_args",
+        "ext_min": "7.4.0",
+        "php_min": "7.4.0alpha3"
+    }
+]

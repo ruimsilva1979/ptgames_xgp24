@@ -1,0 +1,17 @@
+[
+    {
+        "name": "syslog.ident",
+        "ext_min": "7.3.0",
+        "php_min": "7.3.0alpha3"
+    },
+    {
+        "name": "syslog.facility",
+        "ext_min": "7.3.0",
+        "php_min": "7.3.0alpha3"
+    },
+    {
+        "name": "syslog.filter",
+        "ext_min": "7.3.0",
+        "php_min": "7.3.0beta1"
+    }
+]

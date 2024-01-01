@@ -1,0 +1,7 @@
+[
+    {
+        "name": "MongoCursorInterface",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    }
+]

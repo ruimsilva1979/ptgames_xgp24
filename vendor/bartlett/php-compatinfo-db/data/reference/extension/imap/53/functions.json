@@ -1,0 +1,22 @@
+[
+    {
+        "name": "imap_fetchmime",
+        "ext_min": "5.3.6",
+        "php_min": "5.3.6"
+    },
+    {
+        "name": "imap_gc",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "name": "imap_mutf7_to_utf8",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "name": "imap_utf8_to_mutf7",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    }
+]

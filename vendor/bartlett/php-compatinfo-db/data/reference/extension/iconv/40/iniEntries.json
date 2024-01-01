@@ -1,0 +1,17 @@
+[
+    {
+        "name": "iconv.input_encoding",
+        "ext_min": "4.0.5",
+        "php_min": "4.0.5"
+    },
+    {
+        "name": "iconv.internal_encoding",
+        "ext_min": "4.0.5",
+        "php_min": "4.0.5"
+    },
+    {
+        "name": "iconv.output_encoding",
+        "ext_min": "4.0.5",
+        "php_min": "4.0.5"
+    }
+]

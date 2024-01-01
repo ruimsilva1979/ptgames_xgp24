@@ -1,0 +1,12 @@
+[
+    {
+        "name": "pg_parameter_status",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "pg_version",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

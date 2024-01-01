@@ -1,0 +1,14 @@
+[
+    {
+        "rel_version": "4.0.0",
+        "rel_date": "2000-05-22",
+        "rel_state": "stable",
+        "php_min": "4.0.0"
+    },
+    {
+        "rel_version": "4.0.1",
+        "rel_date": "2000-06-28",
+        "rel_state": "stable",
+        "php_min": "4.0.1"
+    }
+]

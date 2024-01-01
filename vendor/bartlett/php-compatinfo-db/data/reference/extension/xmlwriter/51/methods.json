@@ -1,0 +1,254 @@
+[
+    {
+        "class_name": "XMLWriter",
+        "name": "endAttribute",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "endCdata",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "endComment",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "endDocument",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "endDtdAttlist",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "endDtdElement",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "endDtdEntity",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "endDtd",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "endElement",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "endPi",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "flush",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "fullEndElement",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "openMemory",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "openUri",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "outputMemory",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "setIndentString",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "setIndent",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "startAttributeNs",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "startAttribute",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "startCdata",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "startComment",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "startDocument",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "startDtdAttlist",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "startDtdElement",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "startDtdEntity",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "startDtd",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "startElementNs",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "startElement",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "startPi",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "text",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "writeAttributeNs",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "writeAttribute",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "writeCdata",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "writeComment",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "writeDtdAttlist",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "writeDtdElement",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "writeDtdEntity",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "writeDtd",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "writeElementNs",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "writeElement",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "writePi",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    },
+    {
+        "class_name": "XMLWriter",
+        "name": "writeRaw",
+        "ext_min": "5.1.2",
+        "php_min": "5.1.2"
+    }
+]

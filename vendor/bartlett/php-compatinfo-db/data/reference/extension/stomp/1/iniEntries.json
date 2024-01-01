@@ -1,0 +1,12 @@
+[
+    {
+        "name": "stomp.default_password",
+        "ext_min": "1.0.6",
+        "php_min": "5.2.2"
+    },
+    {
+        "name": "stomp.default_username",
+        "ext_min": "1.0.6",
+        "php_min": "5.2.2"
+    }
+]

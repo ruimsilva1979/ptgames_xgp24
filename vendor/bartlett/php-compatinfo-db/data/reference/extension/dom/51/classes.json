@@ -1,0 +1,12 @@
+[
+    {
+        "name": "DOMDocumentFragment",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "name": "DOMException",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    }
+]

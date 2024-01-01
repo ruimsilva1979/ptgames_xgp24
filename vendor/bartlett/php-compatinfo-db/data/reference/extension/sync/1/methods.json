@@ -1,0 +1,122 @@
+[
+    {
+        "class_name": "SyncEvent",
+        "name": "__construct",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncEvent",
+        "name": "fire",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncEvent",
+        "name": "reset",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncEvent",
+        "name": "wait",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncMutex",
+        "name": "__construct",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncMutex",
+        "name": "lock",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncMutex",
+        "name": "unlock",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncReaderWriter",
+        "name": "__construct",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncReaderWriter",
+        "name": "readlock",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncReaderWriter",
+        "name": "readunlock",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncReaderWriter",
+        "name": "writelock",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncReaderWriter",
+        "name": "writeunlock",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncSemaphore",
+        "name": "__construct",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncSemaphore",
+        "name": "lock",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncSemaphore",
+        "name": "unlock",
+        "ext_min": "1.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncSharedMemory",
+        "name": "__construct",
+        "ext_min": "1.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncSharedMemory",
+        "name": "first",
+        "ext_min": "1.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncSharedMemory",
+        "name": "read",
+        "ext_min": "1.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncSharedMemory",
+        "name": "size",
+        "ext_min": "1.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SyncSharedMemory",
+        "name": "write",
+        "ext_min": "1.1.0",
+        "php_min": "5.3.0"
+    }
+]

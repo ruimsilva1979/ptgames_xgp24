@@ -1,0 +1,17 @@
+[
+    {
+        "name": "ftp_close",
+        "ext_min": "4.2.0",
+        "php_min": "4.2.0"
+    },
+    {
+        "name": "ftp_get_option",
+        "ext_min": "4.2.0",
+        "php_min": "4.2.0"
+    },
+    {
+        "name": "ftp_set_option",
+        "ext_min": "4.2.0",
+        "php_min": "4.2.0"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "rel_version": "8.1.0alpha1",
+        "rel_date": "2021-06-10",
+        "rel_state": "alpha",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "rel_version": "8.1.0alpha2",
+        "rel_date": "2021-06-24",
+        "rel_state": "alpha",
+        "php_min": "8.1.0alpha2"
+    },
+    {
+        "rel_version": "8.1.0alpha3",
+        "rel_date": "2021-07-08",
+        "rel_state": "alpha",
+        "php_min": "8.1.0alpha3"
+    },
+    {
+        "rel_version": "8.1.0beta1",
+        "rel_date": "2021-07-22",
+        "rel_state": "beta",
+        "php_min": "8.1.0beta1"
+    },
+    {
+        "rel_version": "8.1.0beta2",
+        "rel_date": "2021-08-05",
+        "rel_state": "beta",
+        "php_min": "8.1.0beta2"
+    },
+    {
+        "rel_version": "8.1.0beta3",
+        "rel_date": "2021-08-19",
+        "rel_state": "beta",
+        "php_min": "8.1.0beta3"
+    },
+    {
+        "rel_version": "8.1.0RC1",
+        "rel_date": "2021-09-02",
+        "rel_state": "beta",
+        "php_min": "8.1.0RC1"
+    },
+    {
+        "rel_version": "8.1.0RC2",
+        "rel_date": "2021-09-16",
+        "rel_state": "beta",
+        "php_min": "8.1.0RC2"
+    },
+    {
+        "rel_version": "8.1.0RC3",
+        "rel_date": "2021-09-30",
+        "rel_state": "beta",
+        "php_min": "8.1.0RC3"
+    },
+    {
+        "rel_version": "8.1.0RC4",
+        "rel_date": "2021-10-14",
+        "rel_state": "beta",
+        "php_min": "8.1.0RC4"
+    },
+    {
+        "rel_version": "8.1.0RC5",
+        "rel_date": "2021-10-28",
+        "rel_state": "beta",
+        "php_min": "8.1.0RC5"
+    },
+    {
+        "rel_version": "8.1.0RC6",
+        "rel_date": "2021-11-11",
+        "rel_state": "beta",
+        "php_min": "8.1.0RC6"
+    },
+    {
+        "rel_version": "8.1.0",
+        "rel_date": "2021-11-25",
+        "rel_state": "stable",
+        "php_min": "8.1.0"
+    },
+    {
+        "rel_version": "8.1.1",
+        "rel_date": "2021-12-17",
+        "rel_state": "stable",
+        "php_min": "8.1.1"
+    },
+    {
+        "rel_version": "8.1.2",
+        "rel_date": "2022-01-21",
+        "rel_state": "stable",
+        "php_min": "8.1.2"
+    }
+]

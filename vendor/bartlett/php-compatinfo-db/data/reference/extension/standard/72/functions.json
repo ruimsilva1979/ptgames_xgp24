@@ -1,0 +1,17 @@
+[
+    {
+        "name": "utf8_decode",
+        "ext_min": "7.2.0alpha1",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "utf8_encode",
+        "ext_min": "7.2.0alpha1",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "stream_isatty",
+        "ext_min": "7.2.0",
+        "php_min": "7.2.0alpha1"
+    }
+]

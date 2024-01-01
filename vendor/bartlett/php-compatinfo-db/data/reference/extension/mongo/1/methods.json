@@ -1,0 +1,535 @@
+[
+    {
+        "class_name": "MongoClient",
+        "name": "__construct",
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "getConnections",
+        "static": true,
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "connect",
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "__toString",
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "__get",
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "selectDB",
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "selectCollection",
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "getReadPreference",
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "setReadPreference",
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "getWriteConcern",
+        "ext_min": "1.5.0RC2",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "setWriteConcern",
+        "ext_min": "1.5.0RC2",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "dropDB",
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "listDBs",
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "getHosts",
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "close",
+        "ext_min": "1.3.0RC3",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoClient",
+        "name": "killCursor",
+        "static": true,
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "toIndexString",
+        "static": true,
+        "ext_min": "1.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "group",
+        "ext_min": "1.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "__get",
+        "ext_min": "1.0.2",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "getSlaveOkay",
+        "ext_min": "1.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "setSlaveOkay",
+        "ext_min": "1.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "getReadPreference",
+        "ext_min": "1.3.0beta1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "setReadPreference",
+        "ext_min": "1.3.0beta1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "getWriteConcern",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "setWriteConcern",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "findAndModify",
+        "ext_min": "1.3.0beta2",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "createIndex",
+        "ext_min": "1.5.0RC1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "distinct",
+        "ext_min": "1.2.12",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "aggregate",
+        "ext_min": "1.3.0beta2",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "aggregateCursor",
+        "ext_min": "1.5.0RC2",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCollection",
+        "name": "parallelCollectionScan",
+        "ext_min": "1.5.0RC2",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCursorInterface",
+        "name": "batchSize",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCursorInterface",
+        "name": "info",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCursorInterface",
+        "name": "dead",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCursorInterface",
+        "name": "timeout",
+        "ext_min": "1.6.0RC3",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "MongoCursorInterface",
+        "name": "getReadPreference",
+        "ext_min": "1.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "MongoCursorInterface",
+        "name": "setReadPreference",
+        "ext_min": "1.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "MongoCursor",
+        "name": "fields",
+        "ext_min": "1.0.6",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCursor",
+        "name": "maxTimeMS",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCursor",
+        "name": "addOption",
+        "ext_min": "1.0.4",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCursor",
+        "name": "snapshot",
+        "ext_min": "1.0.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCursor",
+        "name": "explain",
+        "ext_min": "1.0.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCursor",
+        "name": "setFlag",
+        "ext_min": "1.3.0beta1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCursor",
+        "name": "slaveOkay",
+        "ext_min": "1.0.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCursor",
+        "name": "tailable",
+        "ext_min": "1.0.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCursor",
+        "name": "immortal",
+        "ext_min": "1.0.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCursor",
+        "name": "awaitData",
+        "ext_min": "1.2.12",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCursor",
+        "name": "partial",
+        "ext_min": "1.2.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCursor",
+        "name": "count",
+        "ext_min": "1.0.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoCommandCursor",
+        "name": "__construct",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoCommandCursor",
+        "name": "createFromDocument",
+        "static": true,
+        "ext_min": "1.5.0RC2",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoGridFSFile",
+        "name": "getResource",
+        "ext_min": "1.3.0",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoWriteBatch",
+        "name": "add",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoWriteBatch",
+        "name": "execute",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoWriteBatch",
+        "name": "getItemCount",
+        "ext_min": "1.5.0RC2",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoWriteBatch",
+        "name": "getBatchInfo",
+        "ext_min": "1.5.0RC2",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoInsertBatch",
+        "name": "__construct",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoUpdateBatch",
+        "name": "__construct",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoDeleteBatch",
+        "name": "__construct",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoId",
+        "name": "__set_state",
+        "static": true,
+        "ext_min": "1.0.8",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoId",
+        "name": "getTimestamp",
+        "ext_min": "1.0.2",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoId",
+        "name": "getHostname",
+        "static": true,
+        "ext_min": "1.0.8",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoId",
+        "name": "getPID",
+        "ext_min": "1.0.11",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoId",
+        "name": "getInc",
+        "ext_min": "1.0.11",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoId",
+        "name": "isValid",
+        "static": true,
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoDate",
+        "name": "__set_state",
+        "static": true,
+        "ext_min": "1.6.0RC1",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "MongoDate",
+        "name": "toDateTime",
+        "ext_min": "1.6.0RC1",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "MongoCursorException",
+        "name": "getHost",
+        "ext_min": "1.2.5",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoResultException",
+        "name": "getDocument",
+        "ext_min": "1.3.0RC1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoResultException",
+        "name": "getHost",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoWriteConcernException",
+        "name": "getDocument",
+        "ext_min": "1.5.0alpha1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoTimestamp",
+        "name": "__construct",
+        "ext_min": "1.0.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoTimestamp",
+        "name": "__toString",
+        "ext_min": "1.0.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoInt32",
+        "name": "__construct",
+        "ext_min": "1.0.9",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoInt32",
+        "name": "__toString",
+        "ext_min": "1.0.9",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoInt64",
+        "name": "__construct",
+        "ext_min": "1.0.9",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoInt64",
+        "name": "__toString",
+        "ext_min": "1.0.9",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoLog",
+        "name": "setLevel",
+        "static": true,
+        "ext_min": "1.2.3",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoLog",
+        "name": "getLevel",
+        "static": true,
+        "ext_min": "1.2.3",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoLog",
+        "name": "setModule",
+        "static": true,
+        "ext_min": "1.2.3",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoLog",
+        "name": "getModule",
+        "static": true,
+        "ext_min": "1.2.3",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoLog",
+        "name": "setCallback",
+        "static": true,
+        "ext_min": "1.3.0beta1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoLog",
+        "name": "getCallback",
+        "static": true,
+        "ext_min": "1.3.0beta1",
+        "php_min": "5.2.6"
+    },
+    {
+        "class_name": "MongoPool",
+        "name": "info",
+        "static": true,
+        "ext_min": "1.2.3",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoPool",
+        "name": "setSize",
+        "static": true,
+        "ext_min": "1.2.3",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "MongoPool",
+        "name": "getSize",
+        "static": true,
+        "ext_min": "1.2.3",
+        "php_min": "5.1.0"
+    }
+]

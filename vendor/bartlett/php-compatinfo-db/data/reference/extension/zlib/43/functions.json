@@ -1,0 +1,7 @@
+[
+    {
+        "name": "zlib_get_coding_type",
+        "ext_min": "4.3.2",
+        "php_min": "4.3.2"
+    }
+]

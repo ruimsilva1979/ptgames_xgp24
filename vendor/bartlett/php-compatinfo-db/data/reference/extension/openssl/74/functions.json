@@ -1,0 +1,7 @@
+[
+    {
+        "name": "openssl_x509_verify",
+        "ext_min": "7.4.0",
+        "php_min": "7.4.0alpha1"
+    }
+]

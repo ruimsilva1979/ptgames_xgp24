@@ -1,0 +1,42 @@
+[
+    {
+        "name": "geoip_country_code3_by_name",
+        "ext_min": "0.2.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "geoip_country_code_by_name",
+        "ext_min": "0.2.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "geoip_country_name_by_name",
+        "ext_min": "0.2.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "geoip_database_info",
+        "ext_min": "0.2.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "geoip_id_by_name",
+        "ext_min": "0.2.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "geoip_org_by_name",
+        "ext_min": "0.2.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "geoip_record_by_name",
+        "ext_min": "0.2.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "geoip_region_by_name",
+        "ext_min": "0.2.0",
+        "php_min": "4.3.0"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "memcache.session_prefix_host_key",
+        "ext_min": "4.0.5.1",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "memcache.session_prefix_host_key_remove_www",
+        "ext_min": "4.0.5.1",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "memcache.session_prefix_host_key_remove_subdomain",
+        "ext_min": "4.0.5.1",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "memcache.session_prefix_static_key",
+        "ext_min": "4.0.5.1",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "memcache.session_save_path",
+        "ext_min": "4.0.5.1",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "memcache.prefix_host_key",
+        "ext_min": "4.0.5.1",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "memcache.prefix_host_key_remove_www",
+        "ext_min": "4.0.5.1",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "memcache.prefix_host_key_remove_subdomain",
+        "ext_min": "4.0.5.1",
+        "php_min": "7.0.0"
+    },
+    {
+        "name": "memcache.prefix_static_key",
+        "ext_min": "4.0.5.1",
+        "php_min": "7.0.0"
+    }
+]

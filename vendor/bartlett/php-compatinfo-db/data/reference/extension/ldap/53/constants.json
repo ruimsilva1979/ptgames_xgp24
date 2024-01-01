@@ -1,0 +1,7 @@
+[
+    {
+        "name": "LDAP_OPT_NETWORK_TIMEOUT",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    }
+]

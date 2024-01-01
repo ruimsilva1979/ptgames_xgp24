@@ -1,0 +1,1040 @@
+[
+    {
+        "class_name": "HaruAnnotation",
+        "name": "setHighlightMode",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruAnnotation",
+        "name": "setBorderStyle",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruAnnotation",
+        "name": "setIcon",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruAnnotation",
+        "name": "setOpened",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDestination",
+        "name": "setXYZ",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDestination",
+        "name": "setFit",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDestination",
+        "name": "setFitH",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDestination",
+        "name": "setFitV",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDestination",
+        "name": "setFitR",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDestination",
+        "name": "setFitB",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDestination",
+        "name": "setFitBH",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDestination",
+        "name": "setFitBV",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "__construct",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "resetError",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "addPage",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "insertPage",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "getCurrentPage",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "getEncoder",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "getCurrentEncoder",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "setCurrentEncoder",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "save",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "output",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "saveToStream",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "resetStream",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "getStreamSize",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "readFromStream",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "setPageLayout",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "getPageLayout",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "setPageMode",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "getPageMode",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "setInfoAttr",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "getInfoAttr",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "setInfoDateAttr",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "getFont",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "loadTTF",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "loadTTC",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "loadType1",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "loadPNG",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "loadJPEG",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "loadRaw",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "setPassword",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "setPermission",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "setEncryptionMode",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "setCompressionMode",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "setPagesConfiguration",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "setOpenAction",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "createOutline",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "addPageLabel",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "useJPFonts",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "useJPEncodings",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "useKRFonts",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "useKREncodings",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "useCNSFonts",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "useCNSEncodings",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "useCNTFonts",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruDoc",
+        "name": "useCNTEncodings",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruEncoder",
+        "name": "getType",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruEncoder",
+        "name": "getByteType",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruEncoder",
+        "name": "getUnicode",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruEncoder",
+        "name": "getWritingMode",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruException",
+        "name": "__construct",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruException",
+        "name": "getMessage",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruException",
+        "name": "getCode",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruException",
+        "name": "getFile",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruException",
+        "name": "getLine",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruException",
+        "name": "getTrace",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruException",
+        "name": "getPrevious",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruException",
+        "name": "getTraceAsString",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruException",
+        "name": "__toString",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruFont",
+        "name": "getFontName",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruFont",
+        "name": "getEncodingName",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruFont",
+        "name": "getUnicodeWidth",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruFont",
+        "name": "getAscent",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruFont",
+        "name": "getDescent",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruFont",
+        "name": "getXHeight",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruFont",
+        "name": "getCapHeight",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruFont",
+        "name": "getTextWidth",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruFont",
+        "name": "MeasureText",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruImage",
+        "name": "getSize",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruImage",
+        "name": "getWidth",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruImage",
+        "name": "getHeight",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruImage",
+        "name": "getBitsPerComponent",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruImage",
+        "name": "getColorSpace",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruImage",
+        "name": "setColorMask",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruImage",
+        "name": "setMaskImage",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruOutline",
+        "name": "setOpened",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruOutline",
+        "name": "setDestination",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "drawImage",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setLineWidth",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setLineCap",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setLineJoin",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setMiterLimit",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setFlatness",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setDash",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "Concat",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getTransMatrix",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setTextMatrix",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getTextMatrix",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "moveTo",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "stroke",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "fill",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "eofill",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "lineTo",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "curveTo",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "curveTo2",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "curveTo3",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "rectangle",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "arc",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "circle",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "showText",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "showTextNextLine",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "textOut",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "beginText",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "endText",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setFontAndSize",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setCharSpace",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setWordSpace",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setHorizontalScaling",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setTextLeading",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setTextRenderingMode",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setTextRise",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "moveTextPos",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "fillStroke",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "eoFillStroke",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "closePath",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "endPath",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "ellipse",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "textRect",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "moveToNextLine",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setGrayFill",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setGrayStroke",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setRGBFill",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setRGBStroke",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setCMYKFill",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setCMYKStroke",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setWidth",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setHeight",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setSize",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setRotate",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getWidth",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getHeight",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "createDestination",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "createTextAnnotation",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "createLinkAnnotation",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "createURLAnnotation",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getTextWidth",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "MeasureText",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getGMode",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getCurrentPos",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getCurrentTextPos",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getCurrentFont",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getCurrentFontSize",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getLineWidth",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getLineCap",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getLineJoin",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getMiterLimit",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getDash",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getFlatness",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getCharSpace",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getWordSpace",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getHorizontalScaling",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getTextLeading",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getTextRenderingMode",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getTextRise",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getRGBFill",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getRGBStroke",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getCMYKFill",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getCMYKStroke",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getGrayFill",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getGrayStroke",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getFillingColorSpace",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "getStrokingColorSpace",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "HaruPage",
+        "name": "setSlideShow",
+        "ext_min": "0.0.1",
+        "php_min": "5.1.3"
+    }
+]

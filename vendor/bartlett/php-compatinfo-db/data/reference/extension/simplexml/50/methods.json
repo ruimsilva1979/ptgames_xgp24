@@ -1,0 +1,86 @@
+[
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "__construct",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "__toString",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "addAttribute",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "addChild",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "asXML",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "attributes",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "children",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "count",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "getDocNamespaces",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "getName",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "getNamespaces",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "registerXPathNamespace",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "saveXML",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "SimpleXMLElement",
+        "name": "xpath",
+        "ext_min": "5.0.1",
+        "php_min": "5.0.1"
+    }
+]

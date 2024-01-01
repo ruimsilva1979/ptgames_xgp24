@@ -1,0 +1,32 @@
+[
+    {
+        "name": "_",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "bindtextdomain",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "dcgettext",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "dgettext",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "gettext",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "textdomain",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    }
+]

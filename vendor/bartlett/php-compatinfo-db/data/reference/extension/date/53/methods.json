@@ -1,0 +1,71 @@
+[
+    {
+        "class_name": "DateInterval",
+        "name": "__construct",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DateInterval",
+        "name": "__wakeup",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DateInterval",
+        "name": "__set_state",
+        "static": true,
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DateInterval",
+        "name": "format",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DateInterval",
+        "name": "createFromDateString",
+        "static": true,
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DatePeriod",
+        "name": "__construct",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DatePeriod",
+        "name": "__wakeup",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DatePeriod",
+        "name": "__set_state",
+        "static": true,
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "DatePeriod",
+        "name": "getStartDate",
+        "ext_min": "5.3.0",
+        "php_min": "5.6.5RC1"
+    },
+    {
+        "class_name": "DatePeriod",
+        "name": "getEndDate",
+        "ext_min": "5.3.0",
+        "php_min": "5.6.5RC1"
+    },
+    {
+        "class_name": "DatePeriod",
+        "name": "getDateInterval",
+        "ext_min": "5.3.0",
+        "php_min": "5.6.5RC1"
+    }
+]

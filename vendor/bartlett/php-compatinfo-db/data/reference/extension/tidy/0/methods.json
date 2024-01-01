@@ -1,0 +1,186 @@
+[
+    {
+        "class_name": "tidy",
+        "name": "__construct",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "body",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "cleanRepair",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "diagnose",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "getConfig",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "getHtmlVer",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "getOpt",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "getRelease",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "getStatus",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "head",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "html",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "isXhtml",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "isXml",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "parseFile",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "parseString",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidy",
+        "name": "repairFile",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "tidy",
+        "name": "repairString",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "tidy",
+        "name": "repairFile",
+        "static": true,
+        "ext_min": "8.0.0",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "tidy",
+        "name": "repairString",
+        "static": true,
+        "ext_min": "8.0.0",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "tidy",
+        "name": "root",
+        "ext_min": "0.5.2",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "tidyNode",
+        "name": "getParent",
+        "ext_min": "0.7.0",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "tidyNode",
+        "name": "hasChildren",
+        "ext_min": "0.7.0",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "tidyNode",
+        "name": "hasSiblings",
+        "ext_min": "0.7.0",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "tidyNode",
+        "name": "isAsp",
+        "ext_min": "0.7.0",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "tidyNode",
+        "name": "isComment",
+        "ext_min": "0.7.0",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "tidyNode",
+        "name": "isHtml",
+        "ext_min": "0.7.0",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "tidyNode",
+        "name": "isJste",
+        "ext_min": "0.7.0",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "tidyNode",
+        "name": "isPhp",
+        "ext_min": "0.7.0",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "tidyNode",
+        "name": "isText",
+        "ext_min": "0.7.0",
+        "php_min": "5.0.1"
+    },
+    {
+        "class_name": "tidy",
+        "name": "getOptDoc",
+        "ext_min": "0.7.0",
+        "php_min": "5.1.0"
+    }
+]

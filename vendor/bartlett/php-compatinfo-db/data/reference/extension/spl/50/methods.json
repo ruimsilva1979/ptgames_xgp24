@@ -1,0 +1,200 @@
+[
+    {
+        "class_name": "ArrayIterator",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayIterator",
+        "name": "append",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayIterator",
+        "name": "asort",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayIterator",
+        "name": "getArrayCopy",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayIterator",
+        "name": "getFlags",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayIterator",
+        "name": "ksort",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayIterator",
+        "name": "natcasesort",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayIterator",
+        "name": "natsort",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayIterator",
+        "name": "setFlags",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayIterator",
+        "name": "uasort",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayIterator",
+        "name": "uksort",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "append",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "asort",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "exchangeArray",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "getArrayCopy",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "getFlags",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "getIteratorClass",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "ksort",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "natcasesort",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "natsort",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "setFlags",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "setIteratorClass",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "uasort",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ArrayObject",
+        "name": "uksort",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "CachingIterator",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "CachingIterator",
+        "name": "__toString",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "CachingIterator",
+        "name": "getCache",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "CachingIterator",
+        "name": "getFlags",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "CachingIterator",
+        "name": "hasNext",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "CachingIterator",
+        "name": "setFlags",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DirectoryIterator",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DirectoryIterator",
+        "name": "isDot",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

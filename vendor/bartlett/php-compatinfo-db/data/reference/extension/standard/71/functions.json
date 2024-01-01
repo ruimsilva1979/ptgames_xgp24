@@ -1,0 +1,7 @@
+[
+    {
+        "name": "is_iterable",
+        "ext_min": "7.1.0",
+        "php_min": "7.1.0alpha3"
+    }
+]

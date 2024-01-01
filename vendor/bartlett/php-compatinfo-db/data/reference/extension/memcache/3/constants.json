@@ -1,0 +1,22 @@
+[
+    {
+        "name": "MEMCACHE_USER1",
+        "ext_min": "3.0.8",
+        "php_min": "4.3.11"
+    },
+    {
+        "name": "MEMCACHE_USER2",
+        "ext_min": "3.0.8",
+        "php_min": "4.3.11"
+    },
+    {
+        "name": "MEMCACHE_USER3",
+        "ext_min": "3.0.8",
+        "php_min": "4.3.11"
+    },
+    {
+        "name": "MEMCACHE_USER4",
+        "ext_min": "3.0.8",
+        "php_min": "4.3.11"
+    }
+]

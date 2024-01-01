@@ -1,0 +1,7 @@
+[
+    {
+        "name": "sys_temp_dir",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    }
+]

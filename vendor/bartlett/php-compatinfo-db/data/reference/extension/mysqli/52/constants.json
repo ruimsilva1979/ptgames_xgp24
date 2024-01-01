@@ -1,0 +1,7 @@
+[
+    {
+        "name": "MYSQLI_SET_CHARSET_NAME",
+        "ext_min": "5.2.5",
+        "php_min": "5.2.5"
+    }
+]

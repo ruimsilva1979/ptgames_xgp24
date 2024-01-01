@@ -1,0 +1,17 @@
+[
+    {
+        "name": "XSL_CLONE_ALWAYS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "XSL_CLONE_AUTO",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "XSL_CLONE_NEVER",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

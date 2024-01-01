@@ -1,0 +1,7 @@
+[
+    {
+        "name": "sqlite.assoc_case",
+        "ext_min": "2.0-dev",
+        "php_min": "5.0.0"
+    }
+]

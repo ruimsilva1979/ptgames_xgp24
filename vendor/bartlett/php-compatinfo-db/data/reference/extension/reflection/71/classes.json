@@ -1,0 +1,12 @@
+[
+    {
+        "name": "ReflectionClassConstant",
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "name": "ReflectionNamedType",
+        "ext_min": "7.1.0beta3",
+        "php_min": "7.1.0beta3"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "name": "mb_ereg_replace_callback",
+        "ext_min": "5.4.1",
+        "php_min": "5.4.1"
+    }
+]

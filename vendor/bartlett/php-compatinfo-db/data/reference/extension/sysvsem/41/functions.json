@@ -1,0 +1,7 @@
+[
+    {
+        "name": "sem_remove",
+        "ext_min": "4.1.0",
+        "php_min": "4.1.0"
+    }
+]

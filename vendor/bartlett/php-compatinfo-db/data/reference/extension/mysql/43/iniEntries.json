@@ -1,0 +1,7 @@
+[
+    {
+        "name": "mysql.connect_timeout",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    }
+]

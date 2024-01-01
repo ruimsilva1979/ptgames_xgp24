@@ -1,0 +1,17 @@
+[
+    {
+        "name": "input_encoding",
+        "ext_min": "5.6.0alpha3",
+        "php_min": "5.6.0alpha3"
+    },
+    {
+        "name": "internal_encoding",
+        "ext_min": "5.6.0alpha3",
+        "php_min": "5.6.0alpha3"
+    },
+    {
+        "name": "output_encoding",
+        "ext_min": "5.6.0alpha3",
+        "php_min": "5.6.0alpha3"
+    }
+]

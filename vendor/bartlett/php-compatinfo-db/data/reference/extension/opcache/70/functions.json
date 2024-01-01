@@ -1,0 +1,32 @@
+[
+    {
+        "name": "opcache_reset",
+        "ext_min": "7.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "opcache_invalidate",
+        "ext_min": "7.0.2",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "opcache_compile_file",
+        "ext_min": "7.0.3",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "opcache_is_script_cached",
+        "ext_min": "7.0.4",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "opcache_get_configuration",
+        "ext_min": "7.0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "opcache_get_status",
+        "ext_min": "7.0.1",
+        "php_min": "5.2.0"
+    }
+]

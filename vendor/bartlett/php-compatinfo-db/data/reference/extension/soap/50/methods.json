@@ -1,0 +1,170 @@
+[
+    {
+        "class_name": "SoapClient",
+        "name": "SoapClient",
+        "ext_min": "5.0.0",
+        "ext_max": "7.4.27",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__call",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__doRequest",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__getCookies",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__getFunctions",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__getLastRequestHeaders",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__getLastRequest",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__getLastResponseHeaders",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__getLastResponse",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__getTypes",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__setCookie",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__setLocation",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__setSoapHeaders",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapClient",
+        "name": "__soapCall",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapFault",
+        "name": "SoapFault",
+        "ext_min": "5.0.0",
+        "ext_max": "7.4.27",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapHeader",
+        "name": "SoapHeader",
+        "ext_min": "5.0.0",
+        "ext_max": "7.4.27",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapParam",
+        "name": "SoapParam",
+        "ext_min": "5.0.0",
+        "ext_max": "7.4.27",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapServer",
+        "name": "SoapServer",
+        "ext_min": "5.0.0",
+        "ext_max": "7.4.27",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapServer",
+        "name": "addFunction",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapServer",
+        "name": "addSoapHeader",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapServer",
+        "name": "fault",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapServer",
+        "name": "getFunctions",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapServer",
+        "name": "handle",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapServer",
+        "name": "setClass",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapServer",
+        "name": "setObject",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapServer",
+        "name": "setPersistence",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "SoapVar",
+        "name": "SoapVar",
+        "ext_min": "5.0.0",
+        "ext_max": "7.4.27",
+        "php_min": "5.0.0"
+    }
+]

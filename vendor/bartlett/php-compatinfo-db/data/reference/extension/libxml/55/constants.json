@@ -1,0 +1,7 @@
+[
+    {
+        "name": "LIBXML_SCHEMA_CREATE",
+        "ext_min": "5.5.2",
+        "php_min": "5.5.2"
+    }
+]

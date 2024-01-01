@@ -1,0 +1,12 @@
+[
+    {
+        "name": "FILTER_VALIDATE_DOMAIN",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "name": "FILTER_FLAG_HOSTNAME",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "name": "mbstring.regex_retry_limit",
+        "ext_min": "7.4.0",
+        "php_min": "7.4.0RC4"
+    }
+]

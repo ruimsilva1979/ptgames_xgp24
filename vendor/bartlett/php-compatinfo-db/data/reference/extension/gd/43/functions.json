@@ -1,0 +1,37 @@
+[
+    {
+        "name": "imageantialias",
+        "ext_min": "4.3.2",
+        "php_min": "4.3.2"
+    },
+    {
+        "name": "imagecolorallocatealpha",
+        "ext_min": "4.3.2",
+        "php_min": "4.3.2"
+    },
+    {
+        "name": "imagecolormatch",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "imageistruecolor",
+        "ext_min": "4.3.2",
+        "php_min": "4.3.2"
+    },
+    {
+        "name": "imagelayereffect",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "imagerotate",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "imagesavealpha",
+        "ext_min": "4.3.2",
+        "php_min": "4.3.2"
+    }
+]

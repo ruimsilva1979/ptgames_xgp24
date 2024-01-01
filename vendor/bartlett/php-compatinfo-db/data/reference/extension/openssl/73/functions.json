@@ -1,0 +1,7 @@
+[
+    {
+        "name": "openssl_pkey_derive",
+        "ext_min": "7.3.0",
+        "php_min": "7.3.0alpha1"
+    }
+]

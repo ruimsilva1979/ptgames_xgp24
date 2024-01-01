@@ -1,0 +1,7 @@
+[
+    {
+        "name": "OAuthProvider",
+        "ext_min": "1.0.0",
+        "php_min": "5.1.0"
+    }
+]

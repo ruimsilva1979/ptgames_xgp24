@@ -1,0 +1,22 @@
+[
+    {
+        "name": "ArrayAccess",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "name": "Iterator",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "name": "IteratorAggregate",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "name": "Traversable",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    }
+]

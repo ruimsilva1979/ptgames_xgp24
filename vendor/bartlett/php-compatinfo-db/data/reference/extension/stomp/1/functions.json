@@ -1,0 +1,7 @@
+[
+    {
+        "name": "stomp_nack",
+        "ext_min": "1.0.6",
+        "php_min": "5.2.2"
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "class_name": "RecursiveRegexIterator",
+        "name": "__construct",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RegexIterator",
+        "name": "__construct",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RegexIterator",
+        "name": "getFlags",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RegexIterator",
+        "name": "getMode",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RegexIterator",
+        "name": "getPregFlags",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RegexIterator",
+        "name": "getRegex",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RegexIterator",
+        "name": "setFlags",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RegexIterator",
+        "name": "setMode",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RegexIterator",
+        "name": "setPregFlags",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    }
+]

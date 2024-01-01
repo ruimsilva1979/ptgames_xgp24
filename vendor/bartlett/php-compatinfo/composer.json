@@ -1,0 +1,94 @@
+{
+    "name": "bartlett/php-compatinfo",
+    "description": "Find out the minimum version and the extensions required for a piece of code to run",
+    "keywords": ["compatibility", "version"],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/llaville/php-compatinfo",
+    "support": {
+        "source": "https://github.com/llaville/php-compatinfo",
+        "issues": "https://github.com/llaville/php-compatinfo/issues"
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-pcre": "*",
+        "ext-spl": "*",
+        "bartlett/php-compatinfo-db": "^3.17",
+        "bartlett/sarif-php-sdk": "^1.0",
+        "doctrine/collections": "^1.4",
+        "nikic/php-parser": "^4.10",
+        "psr/log": "^1.0",
+        "ramsey/uuid": "^3.9|^4.0",
+        "symfony/config": "^4.4|^5.0",
+        "symfony/console": "^4.4|^5.0",
+        "symfony/event-dispatcher": "^4.4|^5.0",
+        "symfony/finder": "^4.4|^5.0",
+        "symfony/dependency-injection": "^4.4|^5.0",
+        "symfony/serializer": "^4.4|^5.0",
+        "symfony/stopwatch": "^4.4|^5.0"
+    },
+    "require-dev": {
+        "bartlett/graph-uml": "^1.2",
+        "composer/composer": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Laurent Laville",
+            "homepage": "https://github.com/llaville",
+            "role": "Lead"
+        },
+        {
+            "name": "Remi Collet",
+            "homepage": "https://github.com/remicollet",
+            "role": "Contributor"
+        }
+    ],
+    "bin": [
+        "bin/phpcompatinfo"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bartlett\\CompatInfo\\": "src/"
+        },
+        "files": ["src/Infrastructure/Framework/Symfony/Polyfill.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bartlett\\CompatInfo\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "setup-database": [
+            "mkdir -p ${HOME}/.cache/bartlett/ && touch ${HOME}/.cache/bartlett/compatinfo-db.sqlite",
+            "export DATABASE_URL=sqlite:///${HOME}/.cache/bartlett/compatinfo-db.sqlite"
+        ],
+        "post-install-cmd": [
+            "@setup-database",
+            "vendor/bin/doctrine orm:schema-tool:create",
+            "vendor/bartlett/php-compatinfo-db/bin/compatinfo-db db:init"
+        ],
+        "post-update-cmd": [
+            "@setup-database"
+        ]
+    },
+    "scripts-descriptions": {
+        "setup-database": "Initializes SQLite database from JSON files in data directory."
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "platform": {
+            "php": "7.4.0"
+        },
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "cweagans/composer-patches": true
+        }
+    },
+    "extra": {
+        "enable-patching": true
+    }
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Stomp",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "name": "StompException",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    },
+    {
+        "name": "StompFrame",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.2"
+    }
+]

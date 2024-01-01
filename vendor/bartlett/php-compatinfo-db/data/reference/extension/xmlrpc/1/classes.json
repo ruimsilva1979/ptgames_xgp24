@@ -1,0 +1,7 @@
+[
+    {
+        "name": "XmlRpcServer",
+        "ext_min": "1.0.0RC1",
+        "php_min": "8.0.0"
+    }
+]

@@ -1,0 +1,578 @@
+[
+    {
+        "class_name": "Collator",
+        "name": "__construct",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "create",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "compare",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "sort",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "sortWithSortKeys",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "asort",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "getAttribute",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "setAttribute",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "getStrength",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "setStrength",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "getLocale",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "getErrorCode",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "getErrorMessage",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Collator",
+        "name": "getSortKey",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "__construct",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "create",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "format",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "parse",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "formatCurrency",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "parseCurrency",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "setAttribute",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "getAttribute",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "setTextAttribute",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "getTextAttribute",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "setSymbol",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "getSymbol",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "setPattern",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "getPattern",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "getLocale",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "getErrorCode",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "NumberFormatter",
+        "name": "getErrorMessage",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Normalizer",
+        "name": "normalize",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.3.0alpha1"
+    },
+    {
+        "class_name": "Normalizer",
+        "name": "isNormalized",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.3.0alpha1"
+    },
+    {
+        "class_name": "Locale",
+        "name": "getDefault",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "setDefault",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "getPrimaryLanguage",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "getScript",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "getRegion",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "getKeywords",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "getDisplayScript",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "getDisplayRegion",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "getDisplayName",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "getDisplayLanguage",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "getDisplayVariant",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "composeLocale",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "parseLocale",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "getAllVariants",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "filterMatches",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "lookup",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "canonicalize",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Locale",
+        "name": "acceptFromHttp",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "MessageFormatter",
+        "name": "__construct",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "MessageFormatter",
+        "name": "create",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "MessageFormatter",
+        "name": "format",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "MessageFormatter",
+        "name": "formatMessage",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "MessageFormatter",
+        "name": "parse",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "MessageFormatter",
+        "name": "parseMessage",
+        "static": true,
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "MessageFormatter",
+        "name": "setPattern",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "MessageFormatter",
+        "name": "getPattern",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "MessageFormatter",
+        "name": "getLocale",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "MessageFormatter",
+        "name": "getErrorCode",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "MessageFormatter",
+        "name": "getErrorMessage",
+        "ext_min": "1.0.0beta",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "__construct",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "create",
+        "static": true,
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "getDateType",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "getTimeType",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "getCalendar",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "getCalendarObject",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "setCalendar",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "getTimeZoneId",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "setTimeZoneId",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4",
+        "php_max": "5.6.40"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "getTimeZone",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "setTimeZone",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "setPattern",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "getPattern",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "getLocale",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "setLenient",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "isLenient",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "format",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "formatObject",
+        "static": true,
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "parse",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "localtime",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "getErrorCode",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "IntlDateFormatter",
+        "name": "getErrorMessage",
+        "ext_min": "1.0.0RC1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "ResourceBundle",
+        "name": "__construct",
+        "ext_min": "1.1.0",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "ResourceBundle",
+        "name": "create",
+        "static": true,
+        "ext_min": "1.1.0",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "ResourceBundle",
+        "name": "get",
+        "ext_min": "1.1.0",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "ResourceBundle",
+        "name": "count",
+        "ext_min": "1.1.0",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "ResourceBundle",
+        "name": "getLocales",
+        "static": true,
+        "ext_min": "1.1.0",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "ResourceBundle",
+        "name": "getErrorCode",
+        "ext_min": "1.1.0",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "ResourceBundle",
+        "name": "getErrorMessage",
+        "ext_min": "1.1.0",
+        "php_min": "5.2.4"
+    }
+]

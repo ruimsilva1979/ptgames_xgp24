@@ -1,0 +1,62 @@
+[
+    {
+        "class_name": "RarEntry",
+        "name": "extract",
+        "ext_min": "0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "getName",
+        "ext_min": "0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "getUnpackedSize",
+        "ext_min": "0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "getPackedSize",
+        "ext_min": "0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "getHostOs",
+        "ext_min": "0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "getFileTime",
+        "ext_min": "0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "getCrc",
+        "ext_min": "0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "getAttr",
+        "ext_min": "0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "getVersion",
+        "ext_min": "0.1",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "getMethod",
+        "ext_min": "0.1",
+        "php_min": "5.2.0"
+    }
+]

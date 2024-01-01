@@ -1,0 +1,98 @@
+[
+    {
+        "class_name": "ReflectionUnionType",
+        "name": "getTypes",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionAttribute",
+        "name": "getArguments",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionAttribute",
+        "name": "getName",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionAttribute",
+        "name": "getTarget",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionAttribute",
+        "name": "isRepeated",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionAttribute",
+        "name": "newInstance",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionNamedType",
+        "name": "isBuiltin",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getAttributes",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "isPromoted",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "getAttributes",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getAttributes",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "getDefaultValue",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "hasDefaultValue",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "isPromoted",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "getAttributes",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "getAttributes",
+        "ext_min": "8.0.0alpha1",
+        "php_min": "8.0.0alpha1"
+    }
+]

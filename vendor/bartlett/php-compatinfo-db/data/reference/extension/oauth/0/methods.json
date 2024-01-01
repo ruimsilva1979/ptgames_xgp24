@@ -1,0 +1,117 @@
+[
+    {
+        "class_name": "OAuth",
+        "name": "__construct",
+        "ext_min": "0.99.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "getRequestToken",
+        "ext_min": "0.99.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "getAccessToken",
+        "ext_min": "0.99.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "getLastResponse",
+        "ext_min": "0.99.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "getLastResponseInfo",
+        "ext_min": "0.99.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "setToken",
+        "ext_min": "0.99.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "setVersion",
+        "ext_min": "0.99.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "setAuthType",
+        "ext_min": "0.99.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "setNonce",
+        "ext_min": "0.99.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "fetch",
+        "ext_min": "0.99.1",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "enableDebug",
+        "ext_min": "0.99.4",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "disableDebug",
+        "ext_min": "0.99.4",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "enableSSLChecks",
+        "ext_min": "0.99.5",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "disableSSLChecks",
+        "ext_min": "0.99.5",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "enableRedirects",
+        "ext_min": "0.99.5",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "disableRedirects",
+        "ext_min": "0.99.5",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "setCAPath",
+        "ext_min": "0.99.8",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "getCAPath",
+        "ext_min": "0.99.8",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "OAuth",
+        "name": "__destruct",
+        "ext_min": "0.99.5",
+        "php_min": "5.1.0",
+        "php_max": "5.6.40"
+    }
+]

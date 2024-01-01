@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Spoofchecker",
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    },
+    {
+        "name": "Transliterator",
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    }
+]

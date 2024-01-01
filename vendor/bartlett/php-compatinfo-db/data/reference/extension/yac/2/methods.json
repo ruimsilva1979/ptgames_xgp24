@@ -1,0 +1,14 @@
+[
+    {
+        "class_name": "Yac",
+        "name": "__get",
+        "ext_min": "2.0.0",
+        "php_min": "7.0.0"
+    },
+    {
+        "class_name": "Yac",
+        "name": "__set",
+        "ext_min": "2.0.0",
+        "php_min": "7.0.0"
+    }
+]

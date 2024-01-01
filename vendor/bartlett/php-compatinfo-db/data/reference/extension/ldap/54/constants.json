@@ -1,0 +1,37 @@
+[
+    {
+        "name": "LDAP_MODIFY_BATCH_ADD",
+        "ext_min": "5.4.26",
+        "php_min": "5.4.26"
+    },
+    {
+        "name": "LDAP_MODIFY_BATCH_ATTRIB",
+        "ext_min": "5.4.26",
+        "php_min": "5.4.26"
+    },
+    {
+        "name": "LDAP_MODIFY_BATCH_MODTYPE",
+        "ext_min": "5.4.26",
+        "php_min": "5.4.26"
+    },
+    {
+        "name": "LDAP_MODIFY_BATCH_REMOVE",
+        "ext_min": "5.4.26",
+        "php_min": "5.4.26"
+    },
+    {
+        "name": "LDAP_MODIFY_BATCH_REMOVE_ALL",
+        "ext_min": "5.4.26",
+        "php_min": "5.4.26"
+    },
+    {
+        "name": "LDAP_MODIFY_BATCH_REPLACE",
+        "ext_min": "5.4.26",
+        "php_min": "5.4.26"
+    },
+    {
+        "name": "LDAP_MODIFY_BATCH_VALUES",
+        "ext_min": "5.4.26",
+        "php_min": "5.4.26"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "name": "mimemessage",
+        "ext_min": "0.9",
+        "php_min": "4.3.0"
+    }
+]

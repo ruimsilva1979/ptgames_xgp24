@@ -1,0 +1,7 @@
+[
+    {
+        "name": "normalizer_get_raw_decomposition",
+        "ext_min": "7.3.0",
+        "php_min": "7.3.0alpha1"
+    }
+]

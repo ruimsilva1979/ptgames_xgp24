@@ -1,0 +1,5 @@
+{
+    "name": "riak",
+    "type": "pecl",
+    "deprecated": true
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "class_name": "Directory",
+        "name": "close",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "class_name": "Directory",
+        "name": "read",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "class_name": "Directory",
+        "name": "rewind",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    }
+]

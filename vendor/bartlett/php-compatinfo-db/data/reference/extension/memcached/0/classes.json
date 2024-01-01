@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Memcached",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "MemcachedException",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    }
+]

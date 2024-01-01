@@ -1,0 +1,12 @@
+[
+    {
+        "name": "is_soap_fault",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "use_soap_error_handler",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

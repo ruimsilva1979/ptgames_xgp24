@@ -1,0 +1,74 @@
+[
+    {
+        "class_name": "XSLTProcessor",
+        "name": "getParameter",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XSLTProcessor",
+        "name": "getSecurityPrefs",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XSLTProcessor",
+        "name": "hasExsltSupport",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XSLTProcessor",
+        "name": "importStylesheet",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XSLTProcessor",
+        "name": "registerPHPFunctions",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XSLTProcessor",
+        "name": "removeParameter",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XSLTProcessor",
+        "name": "setParameter",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XSLTProcessor",
+        "name": "setProfiling",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XSLTProcessor",
+        "name": "setSecurityPrefs",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XSLTProcessor",
+        "name": "transformToDoc",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XSLTProcessor",
+        "name": "transformToUri",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "XSLTProcessor",
+        "name": "transformToXml",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

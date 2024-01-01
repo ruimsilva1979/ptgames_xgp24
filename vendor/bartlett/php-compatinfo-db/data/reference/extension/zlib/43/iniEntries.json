@@ -1,0 +1,12 @@
+[
+    {
+        "name": "zlib.output_compression_level",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "zlib.output_handler",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    }
+]

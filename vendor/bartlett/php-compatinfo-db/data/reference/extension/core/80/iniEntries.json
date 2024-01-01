@@ -1,0 +1,7 @@
+[
+    {
+        "name": "zend.exception_string_param_max_len",
+        "ext_min": "8.0.0beta1",
+        "php_min": "8.0.0beta1"
+    }
+]

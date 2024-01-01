@@ -1,0 +1,7 @@
+[
+    {
+        "name": "solr_get_version",
+        "ext_min": "0.9.11",
+        "php_min": "5.2.3"
+    }
+]

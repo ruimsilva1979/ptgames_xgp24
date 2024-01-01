@@ -1,0 +1,7 @@
+[
+    {
+        "name": "MYSQLI_DATA_TRUNCATED",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    }
+]

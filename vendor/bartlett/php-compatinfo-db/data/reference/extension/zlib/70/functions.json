@@ -1,0 +1,22 @@
+[
+    {
+        "name": "deflate_init",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "name": "deflate_add",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "name": "inflate_init",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "name": "inflate_add",
+        "ext_min": "7.0.0alpha1",
+        "php_min": "7.0.0alpha1"
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "class_name": "DatePeriod",
+        "name": "getRecurrences",
+        "ext_min": "7.2.17RC1",
+        "php_min": "7.2.17RC1"
+    }
+]

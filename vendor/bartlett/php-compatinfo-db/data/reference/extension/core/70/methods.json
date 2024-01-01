@@ -1,0 +1,62 @@
+[
+    {
+        "class_name": "Throwable",
+        "name": "__toString",
+        "ext_min": "7.0.2",
+        "php_min": "7.0.2"
+    },
+    {
+        "class_name": "Throwable",
+        "name": "getCode",
+        "ext_min": "7.0.2",
+        "php_min": "7.0.2"
+    },
+    {
+        "class_name": "Throwable",
+        "name": "getFile",
+        "ext_min": "7.0.2",
+        "php_min": "7.0.2"
+    },
+    {
+        "class_name": "Throwable",
+        "name": "getLine",
+        "ext_min": "7.0.2",
+        "php_min": "7.0.2"
+    },
+    {
+        "class_name": "Throwable",
+        "name": "getMessage",
+        "ext_min": "7.0.2",
+        "php_min": "7.0.2"
+    },
+    {
+        "class_name": "Throwable",
+        "name": "getPrevious",
+        "ext_min": "7.0.2",
+        "php_min": "7.0.2"
+    },
+    {
+        "class_name": "Throwable",
+        "name": "getTraceAsString",
+        "ext_min": "7.0.2",
+        "php_min": "7.0.2"
+    },
+    {
+        "class_name": "Throwable",
+        "name": "getTrace",
+        "ext_min": "7.0.2",
+        "php_min": "7.0.2"
+    },
+    {
+        "class_name": "Error",
+        "name": "__construct",
+        "ext_min": "7.0.2",
+        "php_min": "7.0.2"
+    },
+    {
+        "class_name": "Error",
+        "name": "__wakeup",
+        "ext_min": "7.0.2",
+        "php_min": "7.0.2"
+    }
+]

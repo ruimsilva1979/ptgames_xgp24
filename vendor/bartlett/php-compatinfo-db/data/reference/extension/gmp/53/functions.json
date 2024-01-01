@@ -1,0 +1,7 @@
+[
+    {
+        "name": "gmp_testbit",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    }
+]

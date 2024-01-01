@@ -1,0 +1,17 @@
+[
+    {
+        "name": "T_BAD_CHARACTER",
+        "ext_min": "7.4.0",
+        "php_min": "7.4.0beta1"
+    },
+    {
+        "name": "T_COALESCE_EQUAL",
+        "ext_min": "7.4.0",
+        "php_min": "7.4.0"
+    },
+    {
+        "name": "T_FN",
+        "ext_min": "7.4.0",
+        "php_min": "7.4.0"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "name": "DateTime",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "DateTimeZone",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    }
+]

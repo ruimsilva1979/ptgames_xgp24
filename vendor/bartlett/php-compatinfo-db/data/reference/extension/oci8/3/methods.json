@@ -1,0 +1,224 @@
+[
+    {
+        "class_name": "OCICollection",
+        "name": "append",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCICollection",
+        "name": "assign",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCICollection",
+        "name": "assignelem",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3",
+        "php_max": "8.1.0beta3"
+    },
+    {
+        "class_name": "OCICollection",
+        "name": "assignElem",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.11RC1"
+    },
+    {
+        "class_name": "OCICollection",
+        "name": "free",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCICollection",
+        "name": "getElem",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCICollection",
+        "name": "max",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCICollection",
+        "name": "size",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCICollection",
+        "name": "trim",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "append",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "close",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "eof",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "erase",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "export",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "flush",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "free",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "getbuffering",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3",
+        "php_max": "8.1.0beta3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "getBuffering",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.11RC1"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "import",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "load",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "read",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "rewind",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "save",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "savefile",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3",
+        "php_max": "8.1.0beta3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "saveFile",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.11RC1"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "seek",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "setbuffering",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3",
+        "php_max": "8.1.0beta3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "setBuffering",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.11RC1"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "size",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "tell",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "truncate",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "write",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "writetemporary",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3",
+        "php_max": "8.1.0beta3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "writeTemporary",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.11RC1"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "writetofile",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.0alpha3",
+        "php_max": "8.1.0beta3"
+    },
+    {
+        "class_name": "OCILob",
+        "name": "writeToFile",
+        "ext_min": "3.0.0",
+        "php_min": "8.0.11RC1"
+    }
+]

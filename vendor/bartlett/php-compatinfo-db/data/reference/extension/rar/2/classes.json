@@ -1,0 +1,17 @@
+[
+    {
+        "name": "RarArchive",
+        "ext_min": "2.0.0b2",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "RarEntry",
+        "ext_min": "2.0.0b2",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "RarException",
+        "ext_min": "2.0.0RC1",
+        "php_min": "5.2.0"
+    }
+]

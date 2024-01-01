@@ -1,0 +1,7 @@
+[
+    {
+        "name": "openssl_get_curve_names",
+        "ext_min": "7.1.0",
+        "php_min": "7.1.0alpha1"
+    }
+]

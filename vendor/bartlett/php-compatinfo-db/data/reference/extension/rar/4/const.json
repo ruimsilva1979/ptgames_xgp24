@@ -1,0 +1,32 @@
+[
+    {
+        "class_name": "RarEntry",
+        "name": "FSREDIR_UNIXSYMLINK",
+        "ext_min": "4.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "FSREDIR_WINSYMLINK",
+        "ext_min": "4.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "FSREDIR_JUNCTION",
+        "ext_min": "4.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "FSREDIR_HARDLINK",
+        "ext_min": "4.0.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "RarEntry",
+        "name": "FSREDIR_FILECOPY",
+        "ext_min": "4.0.0",
+        "php_min": "5.3.0"
+    }
+]

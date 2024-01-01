@@ -1,0 +1,27 @@
+[
+    {
+        "name": "FTP_AUTORESUME",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "FTP_AUTOSEEK",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "FTP_FAILED",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "FTP_FINISHED",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "FTP_MOREDATA",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "openssl_decrypt",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0",
+        "parameters": "5.3.0, 5.3.0, 5.3.0, 5.3.0, 5.3.0, 7.1.0alpha2, 7.1.0alpha2"
+    },
+    {
+        "name": "openssl_dh_compute_key",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "name": "openssl_digest",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "name": "openssl_encrypt",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0",
+        "parameters": "5.3.0, 5.3.0, 5.3.0, 5.3.0, 5.3.0, 7.1.0alpha2, 7.1.0alpha2, 7.1.0alpha2"
+    },
+    {
+        "name": "openssl_get_cipher_methods",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "name": "openssl_get_md_methods",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "name": "openssl_cipher_iv_length",
+        "ext_min": "5.3.3",
+        "php_min": "5.3.3"
+    },
+    {
+        "name": "openssl_random_pseudo_bytes",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    }
+]

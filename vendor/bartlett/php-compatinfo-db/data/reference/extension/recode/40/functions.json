@@ -1,0 +1,17 @@
+[
+    {
+        "name": "recode",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "recode_file",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "recode_string",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "name": "PTHREADS_ALLOW_GLOBALS",
+        "ext_min": "2.0.1",
+        "php_min": "5.3.0"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "socket_cmsg_space",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "socket_recvmsg",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "socket_sendmsg",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    }
+]

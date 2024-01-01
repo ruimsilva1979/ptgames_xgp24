@@ -1,0 +1,7 @@
+[
+    {
+        "name": "PharData",
+        "ext_min": "2.0.0a1",
+        "php_min": "5.2.0"
+    }
+]

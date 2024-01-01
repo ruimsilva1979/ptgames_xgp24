@@ -1,0 +1,63 @@
+[
+    {
+        "class_name": "mimemessage",
+        "name": "mimemessage",
+        "ext_min": "0.9",
+        "ext_max": "3.0.4",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "mimemessage",
+        "name": "get_child",
+        "ext_min": "0.9",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "mimemessage",
+        "name": "get_child_count",
+        "ext_min": "0.9",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "mimemessage",
+        "name": "get_parent",
+        "ext_min": "0.9",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "mimemessage",
+        "name": "extract_headers",
+        "ext_min": "0.9",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "mimemessage",
+        "name": "extract_body",
+        "ext_min": "0.9",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "mimemessage",
+        "name": "enum_uue",
+        "ext_min": "0.9",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "mimemessage",
+        "name": "extract_uue",
+        "ext_min": "0.9",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "mimemessage",
+        "name": "remove",
+        "ext_min": "0.9",
+        "php_min": "4.3.0"
+    },
+    {
+        "class_name": "mimemessage",
+        "name": "add_child",
+        "ext_min": "0.9",
+        "php_min": "4.3.0"
+    }
+]

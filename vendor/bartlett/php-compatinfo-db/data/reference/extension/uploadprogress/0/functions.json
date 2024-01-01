@@ -1,0 +1,12 @@
+[
+    {
+        "name": "uploadprogress_get_contents",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "uploadprogress_get_info",
+        "ext_min": "0.3.0",
+        "php_min": "5.2.0"
+    }
+]

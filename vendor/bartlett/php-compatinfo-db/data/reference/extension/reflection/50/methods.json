@@ -1,0 +1,957 @@
+[
+    {
+        "class_name": "Reflection",
+        "name": "getModifierNames",
+        "static": true,
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "Reflection",
+        "name": "export",
+        "static": true,
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "Reflector",
+        "name": "export",
+        "static": true,
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "Reflector",
+        "name": "__toString",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "__toString",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "inNamespace",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "isClosure",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "isDeprecated",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "isInternal",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "isUserDefined",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "isGenerator",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "isVariadic",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getClosureThis",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getClosureScopeClass",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getDocComment",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getEndLine",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getExtension",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getExtensionName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getFileName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getNamespaceName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getNumberOfParameters",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getNumberOfRequiredParameters",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getParameters",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getShortName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getStartLine",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getStaticVariables",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "returnsReference",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunction",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunction",
+        "name": "export",
+        "static": true,
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "ReflectionFunction",
+        "name": "isDisabled",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunction",
+        "name": "invoke",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunction",
+        "name": "invokeArgs",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionFunction",
+        "name": "getClosure",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "export",
+        "static": true,
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "__toString",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "getName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "isPassedByReference",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "canBePassedByValue",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "getDeclaringFunction",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "getDeclaringClass",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "getClass",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "isArray",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "isCallable",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "allowsNull",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "getPosition",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "isOptional",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "isDefaultValueAvailable",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "getDefaultValue",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "isDefaultValueConstant",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "getDefaultValueConstantName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionParameter",
+        "name": "isVariadic",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "export",
+        "static": true,
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "isPublic",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "isPrivate",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "isProtected",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "isAbstract",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "isFinal",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "isStatic",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "isConstructor",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "isDestructor",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "getClosure",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "getModifiers",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "invoke",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "invokeArgs",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "getDeclaringClass",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "getPrototype",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionMethod",
+        "name": "setAccessible",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "export",
+        "static": true,
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "__toString",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "isInternal",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "isUserDefined",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "isInstantiable",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "isCloneable",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getFileName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getStartLine",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getEndLine",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getDocComment",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getConstructor",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "hasMethod",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getMethod",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getMethods",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "hasProperty",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getProperty",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getProperties",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "hasConstant",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getConstants",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getConstant",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getInterfaces",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getInterfaceNames",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "isInterface",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getTraits",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getTraitNames",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getTraitAliases",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "isTrait",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "isAbstract",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "isFinal",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getModifiers",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "isInstance",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "newInstance",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "newInstanceArgs",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getParentClass",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "isSubclassOf",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getStaticProperties",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getStaticPropertyValue",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "setStaticPropertyValue",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getDefaultProperties",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "isIterateable",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "implementsInterface",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getExtension",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getExtensionName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "inNamespace",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getNamespaceName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getShortName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionObject",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "export",
+        "static": true,
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "__toString",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "getName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "getValue",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "setValue",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "isPublic",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "isPrivate",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "isProtected",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "isStatic",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "isDefault",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "getModifiers",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "getDeclaringClass",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "getDocComment",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "setAccessible",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "export",
+        "static": true,
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "__toString",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "getName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "getVersion",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "getFunctions",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "getConstants",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "getINIEntries",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "getClasses",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "getClassNames",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "getDependencies",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "info",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "isPersistent",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionExtension",
+        "name": "isTemporary",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionZendExtension",
+        "name": "export",
+        "static": true,
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "ReflectionZendExtension",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionZendExtension",
+        "name": "__toString",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionZendExtension",
+        "name": "getName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionZendExtension",
+        "name": "getVersion",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionZendExtension",
+        "name": "getAuthor",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionZendExtension",
+        "name": "getURL",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "ReflectionZendExtension",
+        "name": "getCopyright",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

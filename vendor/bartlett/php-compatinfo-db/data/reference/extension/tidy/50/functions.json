@@ -1,0 +1,8 @@
+[
+    {
+        "name": "ob_tidyhandler",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "5.3.29"
+    }
+]

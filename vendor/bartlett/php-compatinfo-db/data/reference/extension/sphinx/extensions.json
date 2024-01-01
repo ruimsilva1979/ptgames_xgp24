@@ -1,0 +1,5 @@
+{
+    "name": "sphinx",
+    "type": "pecl",
+    "deprecated": true
+}

@@ -1,0 +1,764 @@
+[
+    {
+        "class_name": "DOMAttr",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMAttr",
+        "name": "isId",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMCdataSection",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMCharacterData",
+        "name": "appendData",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMCharacterData",
+        "name": "deleteData",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMCharacterData",
+        "name": "insertData",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMCharacterData",
+        "name": "replaceData",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMCharacterData",
+        "name": "substringData",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMComment",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMConfiguration",
+        "name": "canSetParameter",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMConfiguration",
+        "name": "getParameter",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMConfiguration",
+        "name": "setParameter",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "adoptNode",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "createAttributeNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "createAttribute",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "createCDATASection",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "createComment",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "createDocumentFragment",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "createElementNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "createElement",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "createEntityReference",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "createProcessingInstruction",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "createTextNode",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "getElementById",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "getElementsByTagNameNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "getElementsByTagName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "importNode",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "loadHTMLFile",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "loadHTML",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "loadXML",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "load",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "normalizeDocument",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "registerNodeClass",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "relaxNGValidateSource",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "relaxNGValidate",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "renameNode",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "saveHTMLFile",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "saveHTML",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "saveXML",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "save",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "schemaValidateSource",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "schemaValidate",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "validate",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocument",
+        "name": "xinclude",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMDocumentFragment",
+        "name": "__construct",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "DOMDocumentFragment",
+        "name": "appendXML",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "getAttributeNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "getAttributeNodeNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "getAttributeNode",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "getAttribute",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "getElementsByTagNameNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "getElementsByTagName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "hasAttributeNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "hasAttribute",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "removeAttributeNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "removeAttributeNode",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "removeAttribute",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "setAttributeNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "setAttributeNodeNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "setAttributeNode",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "setAttribute",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "setIdAttributeNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "setIdAttributeNode",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMElement",
+        "name": "setIdAttribute",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMEntityReference",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMErrorHandler",
+        "name": "handleError",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMImplementation",
+        "name": "createDocumentType",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMImplementation",
+        "name": "createDocument",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMImplementation",
+        "name": "getFeature",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMImplementation",
+        "name": "hasFeature",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMImplementationList",
+        "name": "item",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMImplementationSource",
+        "name": "getDomimplementation",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMImplementationSource",
+        "name": "getDomimplementations",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMNameList",
+        "name": "getName",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMNameList",
+        "name": "getNamespaceURI",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMNamedNodeMap",
+        "name": "getNamedItemNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNamedNodeMap",
+        "name": "getNamedItem",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNamedNodeMap",
+        "name": "item",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNamedNodeMap",
+        "name": "removeNamedItemNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMNamedNodeMap",
+        "name": "removeNamedItem",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMNamedNodeMap",
+        "name": "setNamedItemNS",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMNamedNodeMap",
+        "name": "setNamedItem",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "C14NFile",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "C14N",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "appendChild",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "cloneNode",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "compareDocumentPosition",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "getFeature",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "getLineNo",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "getNodePath",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "getUserData",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "hasAttributes",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "hasChildNodes",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "insertBefore",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "isDefaultNamespace",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "isEqualNode",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "isSameNode",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "isSupported",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "lookupNamespaceUri",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "lookupNamespaceURI",
+        "ext_min": "8.0.0",
+        "php_min": "8.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "lookupPrefix",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "normalize",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "removeChild",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "replaceChild",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMNode",
+        "name": "setUserData",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMNodeList",
+        "name": "item",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMProcessingInstruction",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMStringExtend",
+        "name": "findOffset16",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMStringExtend",
+        "name": "findOffset32",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMStringList",
+        "name": "item",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMText",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMText",
+        "name": "isElementContentWhitespace",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMText",
+        "name": "isWhitespaceInElementContent",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMText",
+        "name": "replaceWholeText",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMText",
+        "name": "splitText",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMUserDataHandler",
+        "name": "handle",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0",
+        "php_max": "7.4.27"
+    },
+    {
+        "class_name": "DOMXPath",
+        "name": "__construct",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMXPath",
+        "name": "evaluate",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMXPath",
+        "name": "query",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMXPath",
+        "name": "registerNamespace",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "DOMXPath",
+        "name": "registerPhpFunctions",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

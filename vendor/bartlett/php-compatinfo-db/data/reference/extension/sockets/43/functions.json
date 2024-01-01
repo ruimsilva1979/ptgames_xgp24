@@ -1,0 +1,12 @@
+[
+    {
+        "name": "socket_get_option",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    },
+    {
+        "name": "socket_set_option",
+        "ext_min": "4.3.0",
+        "php_min": "4.3.0"
+    }
+]

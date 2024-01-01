@@ -1,0 +1,5 @@
+{
+    "name": "htscanner",
+    "type": "pecl",
+    "deprecated": true
+}

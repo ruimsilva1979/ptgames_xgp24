@@ -1,0 +1,26 @@
+[
+    {
+        "name": "session_abort",
+        "ext_min": "5.6.0alpha1",
+        "php_min": "5.6.0alpha1"
+    },
+    {
+        "name": "session_gc",
+        "ext_min": "5.6.0alpha1",
+        "ext_max": "5.6.0alpha3",
+        "php_min": "5.6.0alpha1",
+        "php_max": "5.6.0alpha3"
+    },
+    {
+        "name": "session_reset",
+        "ext_min": "5.6.0alpha1",
+        "php_min": "5.6.0alpha1"
+    },
+    {
+        "name": "session_serializer_name",
+        "ext_min": "5.6.0alpha1",
+        "ext_max": "5.6.0alpha3",
+        "php_min": "5.6.0alpha1",
+        "php_max": "5.6.0alpha3"
+    }
+]

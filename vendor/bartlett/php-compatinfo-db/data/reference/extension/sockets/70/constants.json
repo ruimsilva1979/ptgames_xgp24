@@ -1,0 +1,7 @@
+[
+    {
+        "name": "IPV6_V6ONLY",
+        "ext_min": "7.0.1",
+        "php_min": "7.0.1RC1"
+    }
+]

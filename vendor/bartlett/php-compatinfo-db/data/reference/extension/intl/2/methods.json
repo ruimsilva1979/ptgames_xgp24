@@ -1,0 +1,77 @@
+[
+    {
+        "class_name": "Transliterator",
+        "name": "create",
+        "static": true,
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "Transliterator",
+        "name": "createFromRules",
+        "static": true,
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "Transliterator",
+        "name": "createInverse",
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "Transliterator",
+        "name": "listIDs",
+        "static": true,
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "Transliterator",
+        "name": "transliterate",
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "Transliterator",
+        "name": "getErrorCode",
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "Transliterator",
+        "name": "getErrorMessage",
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "Spoofchecker",
+        "name": "__construct",
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "Spoofchecker",
+        "name": "isSuspicious",
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "Spoofchecker",
+        "name": "areConfusable",
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "Spoofchecker",
+        "name": "setAllowedLocales",
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    },
+    {
+        "class_name": "Spoofchecker",
+        "name": "setChecks",
+        "ext_min": "2.0.0b1",
+        "php_min": "5.2.4"
+    }
+]

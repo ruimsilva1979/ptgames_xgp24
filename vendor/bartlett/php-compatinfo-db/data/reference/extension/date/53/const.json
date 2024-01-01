@@ -1,0 +1,8 @@
+[
+    {
+        "class_name": "DatePeriod",
+        "name": "EXCLUDE_START_DATE",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    }
+]

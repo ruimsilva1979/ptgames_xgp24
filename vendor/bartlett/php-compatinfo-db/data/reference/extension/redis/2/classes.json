@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Redis",
+        "ext_min": "2.2.3",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "RedisArray",
+        "ext_min": "2.2.3",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "RedisException",
+        "ext_min": "2.2.3",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "RedisClusterException",
+        "ext_min": "2.2.8",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "RedisCluster",
+        "ext_min": "2.2.8",
+        "php_min": "5.2.0"
+    }
+]

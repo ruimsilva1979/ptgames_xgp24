@@ -1,0 +1,12 @@
+[
+    {
+        "name": "UPLOAD_ERR_CANT_WRITE",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    },
+    {
+        "name": "__COMPILER_HALT_OFFSET__",
+        "ext_min": "5.1.0",
+        "php_min": "5.1.0"
+    }
+]

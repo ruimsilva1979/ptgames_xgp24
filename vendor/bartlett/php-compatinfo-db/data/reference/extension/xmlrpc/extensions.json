@@ -1,0 +1,5 @@
+{
+    "name": "xmlrpc",
+    "type": "pecl",
+    "deprecated": true
+}

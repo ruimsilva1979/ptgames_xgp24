@@ -1,0 +1,8 @@
+[
+    {
+        "name": "session_regenerate_id",
+        "ext_min": "4.3.2",
+        "php_min": "4.3.2",
+        "parameters": "5.1.0"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "name": "session.cookie_httponly",
+        "ext_min": "5.2.0",
+        "php_min": "5.2.0"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "simplexml_import_dom",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "simplexml_load_file",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    },
+    {
+        "name": "simplexml_load_string",
+        "ext_min": "5.0.0",
+        "php_min": "5.0.0"
+    }
+]

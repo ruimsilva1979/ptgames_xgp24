@@ -1,0 +1,22 @@
+[
+    {
+        "name": "ldap_exop",
+        "ext_min": "7.2.0",
+        "php_min": "7.2.0beta1"
+    },
+    {
+        "name": "ldap_exop_passwd",
+        "ext_min": "7.2.0",
+        "php_min": "7.2.0beta1"
+    },
+    {
+        "name": "ldap_exop_whoami",
+        "ext_min": "7.2.0",
+        "php_min": "7.2.0beta1"
+    },
+    {
+        "name": "ldap_parse_exop",
+        "ext_min": "7.2.0",
+        "php_min": "7.2.0beta1"
+    }
+]

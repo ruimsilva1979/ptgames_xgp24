@@ -1,0 +1,7 @@
+[
+    {
+        "name": "mssql_free_statement",
+        "ext_min": "4.3.2",
+        "php_min": "4.3.2"
+    }
+]

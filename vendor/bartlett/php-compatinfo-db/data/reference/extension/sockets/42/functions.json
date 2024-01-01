@@ -1,0 +1,12 @@
+[
+    {
+        "name": "socket_clear_error",
+        "ext_min": "4.2.0",
+        "php_min": "4.2.0"
+    },
+    {
+        "name": "socket_set_block",
+        "ext_min": "4.2.0",
+        "php_min": "4.2.0"
+    }
+]

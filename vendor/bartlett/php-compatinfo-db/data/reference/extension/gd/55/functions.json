@@ -1,0 +1,47 @@
+[
+    {
+        "name": "imageaffine",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "imageaffinematrixconcat",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "imageaffinematrixget",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "imagecrop",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "imagecropauto",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "imageflip",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "imagepalettetotruecolor",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "imagescale",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    },
+    {
+        "name": "imagesetinterpolation",
+        "ext_min": "5.5.0",
+        "php_min": "5.5.0"
+    }
+]

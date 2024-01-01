@@ -1,0 +1,32 @@
+[
+    {
+        "name": "LDAP_OPT_X_TLS_ALLOW",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "name": "LDAP_OPT_X_TLS_DEMAND",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "name": "LDAP_OPT_X_TLS_HARD",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "name": "LDAP_OPT_X_TLS_NEVER",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "name": "LDAP_OPT_X_TLS_REQUIRE_CERT",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    },
+    {
+        "name": "LDAP_OPT_X_TLS_TRY",
+        "ext_min": "7.0.0",
+        "php_min": "7.0.0alpha1"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "class_name": "Yac",
+        "name": "add",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Yac",
+        "name": "set",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Yac",
+        "name": "get",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Yac",
+        "name": "delete",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Yac",
+        "name": "flush",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Yac",
+        "name": "info",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Yac",
+        "name": "dump",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Yac",
+        "name": "__construct",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    }
+]

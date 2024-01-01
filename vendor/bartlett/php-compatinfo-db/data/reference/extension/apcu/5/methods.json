@@ -1,0 +1,26 @@
+[
+    {
+        "class_name": "APCUIterator",
+        "name": "__construct",
+        "ext_min": "5.1.0",
+        "php_min": "7.0.0"
+    },
+    {
+        "class_name": "APCUIterator",
+        "name": "getTotalHits",
+        "ext_min": "5.1.0",
+        "php_min": "7.0.0"
+    },
+    {
+        "class_name": "APCUIterator",
+        "name": "getTotalSize",
+        "ext_min": "5.1.0",
+        "php_min": "7.0.0"
+    },
+    {
+        "class_name": "APCUIterator",
+        "name": "getTotalCount",
+        "ext_min": "5.1.0",
+        "php_min": "7.0.0"
+    }
+]

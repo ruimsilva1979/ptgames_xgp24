@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Directory",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    },
+    {
+        "name": "__PHP_Incomplete_Class",
+        "ext_min": "4.0.0",
+        "php_min": "4.0.0"
+    }
+]

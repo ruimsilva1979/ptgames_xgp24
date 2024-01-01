@@ -1,0 +1,82 @@
+[
+    {
+        "class_name": "ReflectionNamedType",
+        "name": "getName",
+        "ext_min": "7.1.0beta3",
+        "php_min": "7.1.0beta3"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getReflectionConstants",
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "getReflectionConstant",
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "__construct",
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "getDeclaringClass",
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "getDocComment",
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "getModifiers",
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "getName",
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "getValue",
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "isPrivate",
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "isProtected",
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "isPublic",
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "export",
+        "static": true,
+        "ext_min": "7.1.0alpha1",
+        "php_min": "7.1.0alpha1",
+        "php_max": "7.4.27"
+    }
+]

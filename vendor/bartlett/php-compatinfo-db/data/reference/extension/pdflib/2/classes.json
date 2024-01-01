@@ -1,0 +1,12 @@
+[
+    {
+        "name": "PDFlib",
+        "ext_min": "2.0.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "name": "PDFlibException",
+        "ext_min": "2.0.0",
+        "php_min": "5.2.0"
+    }
+]

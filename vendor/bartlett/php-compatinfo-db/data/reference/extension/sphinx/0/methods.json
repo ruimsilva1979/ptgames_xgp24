@@ -1,0 +1,194 @@
+[
+    {
+        "class_name": "SphinxClient",
+        "name": "__construct",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "addQuery",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "buildExcerpts",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "buildKeywords",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "getLastError",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "getLastWarning",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "escapeString",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "query",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "resetFilters",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "resetGroupBy",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "runQueries",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setArrayResult",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setConnectTimeout",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setFieldWeights",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setFilter",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setFilterFloatRange",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setFilterRange",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setGeoAnchor",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setGroupBy",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setGroupDistinct",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setIndexWeights",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setIDRange",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setLimits",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setMatchMode",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setMaxQueryTime",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setRankingMode",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setRetries",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setServer",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "setSortMode",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "updateAttributes",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "__sleep",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    },
+    {
+        "class_name": "SphinxClient",
+        "name": "__wakeup",
+        "ext_min": "0.1.0",
+        "php_min": "5.1.3"
+    }
+]

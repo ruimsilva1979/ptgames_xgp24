@@ -1,0 +1,7 @@
+[
+    {
+        "name": "xhprof.output_dir",
+        "ext_min": "0.9.0",
+        "php_min": "5.2.0"
+    }
+]

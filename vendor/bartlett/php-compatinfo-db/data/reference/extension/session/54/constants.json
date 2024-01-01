@@ -1,0 +1,17 @@
+[
+    {
+        "name": "PHP_SESSION_ACTIVE",
+        "ext_min": "5.4.0",
+        "php_min": "5.4.0"
+    },
+    {
+        "name": "PHP_SESSION_DISABLED",
+        "ext_min": "5.4.0",
+        "php_min": "5.4.0"
+    },
+    {
+        "name": "PHP_SESSION_NONE",
+        "ext_min": "5.4.0",
+        "php_min": "5.4.0"
+    }
+]

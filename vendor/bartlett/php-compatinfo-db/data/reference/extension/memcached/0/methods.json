@@ -1,0 +1,350 @@
+[
+    {
+        "class_name": "Memcached",
+        "name": "__construct",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "addByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "addServer",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "addServers",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "add",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "appendByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "append",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "casByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "cas",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "decrementByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "decrement",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "deleteByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "deleteMultiByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "deleteMulti",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "delete",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "fetchAll",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "fetch",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "flushBuffers",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "flush",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getAllKeys",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getDelayedByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getDelayed",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getLastDisconnectedServer",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getLastErrorCode",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getLastErrorErrno",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getLastErrorMessage",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getMultiByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getMulti",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getOption",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getResultCode",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getResultMessage",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getServerByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getServerList",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getStats",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "getVersion",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "get",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "incrementByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "increment",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "isPersistent",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "isPristine",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "prependByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "prepend",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "quit",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "replaceByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "replace",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "resetServerList",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "setBucket",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "setByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "setEncodingKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "setMultiByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "setMulti",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "setOption",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "setOptions",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "setSaslAuthData",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "set",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "touchByKey",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    },
+    {
+        "class_name": "Memcached",
+        "name": "touch",
+        "ext_min": "0.1.0",
+        "php_min": "5.2.0"
+    }
+]

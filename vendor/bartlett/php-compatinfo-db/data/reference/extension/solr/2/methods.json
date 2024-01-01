@@ -1,0 +1,610 @@
+[
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "__construct",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setQueryAlt",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "addQueryField",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "removeQueryField",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "addPhraseField",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "removePhraseField",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setPhraseFields",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setPhraseSlop",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setQueryPhraseSlop",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setBoostQuery",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "addBoostQuery",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "removeBoostQuery",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setBoostFunction",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setMinimumMatch",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setTieBreaker",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "useDisMaxQueryParser",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "useEDisMaxQueryParser",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setBigramPhraseFields",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "addBigramPhraseField",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "removeBigramPhraseField",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setBigramPhraseSlop",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setTrigramPhraseFields",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "addTrigramPhraseField",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "removeTrigramPhraseField",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setTrigramPhraseSlop",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "addUserField",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "removeUserField",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDisMaxQuery",
+        "name": "setUserFields",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrResponse",
+        "name": "getArrayResponse",
+        "ext_min": "2.1.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrClient",
+        "name": "getById",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrClient",
+        "name": "getByIds",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "setGroup",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroup",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "addGroupField",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroupFields",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "addGroupFunction",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroupFunctions",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "addGroupQuery",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroupQueries",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "setGroupLimit",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroupLimit",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "setGroupOffset",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroupOffset",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "addGroupSortField",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroupSortFields",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "setGroupFormat",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroupFormat",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "setGroupMain",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroupMain",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "setGroupNGroups",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroupNGroups",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "setGroupTruncate",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroupTruncate",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "setGroupFacet",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroupFacet",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "setGroupCachePercent",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getGroupCachePercent",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "collapse",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "setExpand",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getExpand",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "addExpandSortField",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "removeExpandSortField",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getExpandSortFields",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "setExpandRows",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getExpandRows",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "setExpandQuery",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getExpandQuery",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "addExpandFilterQuery",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "removeExpandFilterQuery",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrQuery",
+        "name": "getExpandFilterQueries",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "__construct",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "__destruct",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "setField",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "getField",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "setMax",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "getMax",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "setMin",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "getMin",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "setSize",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "getSize",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "setHint",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "getHint",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "setNullPolicy",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "getNullPolicy",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "__toString",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "__sleep",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrCollapseFunction",
+        "name": "__wakeup",
+        "ext_min": "2.2.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDocument",
+        "name": "getChildDocumentsCount",
+        "ext_min": "2.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDocument",
+        "name": "hasChildDocuments",
+        "ext_min": "2.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrDocument",
+        "name": "getChildDocuments",
+        "ext_min": "2.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrInputDocument",
+        "name": "addChildDocument",
+        "ext_min": "2.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrInputDocument",
+        "name": "getChildDocuments",
+        "ext_min": "2.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrInputDocument",
+        "name": "hasChildDocuments",
+        "ext_min": "2.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrInputDocument",
+        "name": "getChildDocumentsCount",
+        "ext_min": "2.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrInputDocument",
+        "name": "addChildDocuments",
+        "ext_min": "2.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SolrExtractRequest",
+        "name": "createFromFile",
+        "static": true,
+        "ext_min": "2.5.0",
+        "php_min": "7.0.0"
+    },
+    {
+        "class_name": "SolrExtractRequest",
+        "name": "createFromStream",
+        "static": true,
+        "ext_min": "2.5.0",
+        "php_min": "7.0.0"
+    },
+    {
+        "class_name": "SolrExtractRequest",
+        "name": "__destruct",
+        "ext_min": "2.5.0",
+        "php_min": "7.0.0"
+    },
+    {
+        "class_name": "SolrExtractRequest",
+        "name": "__clone",
+        "ext_min": "2.5.0",
+        "php_min": "7.0.0"
+    },
+    {
+        "class_name": "SolrExtractRequest",
+        "name": "__sleep",
+        "ext_min": "2.5.0",
+        "php_min": "7.0.0"
+    },
+    {
+        "class_name": "SolrExtractRequest",
+        "name": "__wakeup",
+        "ext_min": "2.5.0",
+        "php_min": "7.0.0"
+    }
+]

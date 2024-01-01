@@ -1,0 +1,42 @@
+[
+    {
+        "name": "curl_close",
+        "ext_min": "4.0.2",
+        "php_min": "4.0.2"
+    },
+    {
+        "name": "curl_errno",
+        "ext_min": "4.0.3",
+        "php_min": "4.0.3"
+    },
+    {
+        "name": "curl_error",
+        "ext_min": "4.0.3",
+        "php_min": "4.0.3"
+    },
+    {
+        "name": "curl_exec",
+        "ext_min": "4.0.2",
+        "php_min": "4.0.2"
+    },
+    {
+        "name": "curl_getinfo",
+        "ext_min": "4.0.4",
+        "php_min": "4.0.4"
+    },
+    {
+        "name": "curl_init",
+        "ext_min": "4.0.2",
+        "php_min": "4.0.2"
+    },
+    {
+        "name": "curl_setopt",
+        "ext_min": "4.0.2",
+        "php_min": "4.0.2"
+    },
+    {
+        "name": "curl_version",
+        "ext_min": "4.0.2",
+        "php_min": "4.0.2"
+    }
+]

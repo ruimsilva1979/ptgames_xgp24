@@ -1,0 +1,15 @@
+[
+    {
+        "class_name": "Normalizer",
+        "name": "getRawDecomposition",
+        "static": true,
+        "ext_min": "7.3.0",
+        "php_min": "7.3.0alpha1"
+    },
+    {
+        "class_name": "Spoofchecker",
+        "name": "setRestrictionLevel",
+        "ext_min": "7.3.0",
+        "php_min": "7.3.0alpha1"
+    }
+]

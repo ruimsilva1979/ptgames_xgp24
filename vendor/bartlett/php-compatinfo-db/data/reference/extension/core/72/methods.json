@@ -1,0 +1,8 @@
+[
+    {
+        "class_name": "Countable",
+        "name": "count",
+        "ext_min": "7.2.0",
+        "php_min": "5.1.0"
+    }
+]

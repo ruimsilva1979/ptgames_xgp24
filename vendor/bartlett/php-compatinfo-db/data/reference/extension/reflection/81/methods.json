@@ -1,0 +1,152 @@
+[
+    {
+        "class_name": "ReflectionEnum",
+        "name": "__construct",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionEnum",
+        "name": "hasCase",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionEnum",
+        "name": "getCase",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionEnum",
+        "name": "getCases",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionEnum",
+        "name": "isBacked",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionEnum",
+        "name": "getBackingType",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionEnumUnitCase",
+        "name": "__construct",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionEnumUnitCase",
+        "name": "getEnum",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionEnumBackedCase",
+        "name": "__construct",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionEnumBackedCase",
+        "name": "getBackingValue",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionIntersectionType",
+        "name": "getTypes",
+        "ext_min": "8.1.0alpha3",
+        "php_min": "8.1.0alpha3"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "isStatic",
+        "ext_min": "8.1.0alpha3",
+        "php_min": "8.1.0alpha3"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getClosureUsedVariables",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "hasTentativeReturnType",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionFunctionAbstract",
+        "name": "getTentativeReturnType",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClass",
+        "name": "isEnum",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "isEnumCase",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionFiber",
+        "name": "__construct",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionFiber",
+        "name": "getFiber",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionFiber",
+        "name": "getExecutingFile",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionFiber",
+        "name": "getExecutingLine",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionFiber",
+        "name": "getCallable",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionFiber",
+        "name": "getTrace",
+        "ext_min": "8.1.0alpha1",
+        "php_min": "8.1.0alpha1"
+    },
+    {
+        "class_name": "ReflectionProperty",
+        "name": "isReadOnly",
+        "ext_min": "8.1.0beta1",
+        "php_min": "8.1.0beta1"
+    },
+    {
+        "class_name": "ReflectionClassConstant",
+        "name": "isFinal",
+        "ext_min": "8.1.0beta1",
+        "php_min": "8.1.0beta1"
+    }
+]

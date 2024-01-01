@@ -1,0 +1,208 @@
+[
+    {
+        "class_name": "SQLite3",
+        "name": "__construct",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "busyTimeout",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "changes",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "close",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "createAggregate",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "createCollation",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "createFunction",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "enableExceptions",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "exec",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "lastErrorCode",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "lastErrorMsg",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "lastInsertRowID",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "loadExtension",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "openBlob",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "open",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "prepare",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "querySingle",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "query",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "escapeString",
+        "static": true,
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3",
+        "name": "version",
+        "static": true,
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Result",
+        "name": "columnName",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Result",
+        "name": "columnType",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Result",
+        "name": "fetchArray",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Result",
+        "name": "finalize",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Result",
+        "name": "numColumns",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Result",
+        "name": "reset",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Stmt",
+        "name": "bindParam",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Stmt",
+        "name": "bindValue",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Stmt",
+        "name": "clear",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Stmt",
+        "name": "close",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Stmt",
+        "name": "execute",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Stmt",
+        "name": "paramCount",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Stmt",
+        "name": "readOnly",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "SQLite3Stmt",
+        "name": "reset",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    }
+]

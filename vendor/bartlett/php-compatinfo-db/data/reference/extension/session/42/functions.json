@@ -1,0 +1,7 @@
+[
+    {
+        "name": "session_cache_expire",
+        "ext_min": "4.2.0",
+        "php_min": "4.2.0"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "PGSQL_NOTICE_LAST",
+        "ext_min": "7.1.0",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "name": "PGSQL_NOTICE_ALL",
+        "ext_min": "7.1.0",
+        "php_min": "7.1.0alpha1"
+    },
+    {
+        "name": "PGSQL_NOTICE_CLEAR",
+        "ext_min": "7.1.0",
+        "php_min": "7.1.0alpha1"
+    }
+]

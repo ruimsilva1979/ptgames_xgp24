@@ -1,0 +1,12 @@
+[
+    {
+        "name": "inflate_get_status",
+        "ext_min": "7.2.0",
+        "php_min": "7.2.0alpha3"
+    },
+    {
+        "name": "inflate_get_read_len",
+        "ext_min": "7.2.0",
+        "php_min": "7.2.0alpha3"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "name": "OPENSSL_DEFAULT_STREAM_CIPHERS",
+        "ext_min": "5.6.0beta1",
+        "php_min": "5.6.0beta1"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "class_name": "MessagePack",
+        "name": "__construct",
+        "ext_min": "0.5.2",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MessagePack",
+        "name": "setOption",
+        "ext_min": "0.5.2",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MessagePack",
+        "name": "pack",
+        "ext_min": "0.5.2",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MessagePack",
+        "name": "unpack",
+        "ext_min": "0.5.2",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MessagePack",
+        "name": "unpacker",
+        "ext_min": "0.5.2",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MessagePackUnpacker",
+        "name": "__construct",
+        "ext_min": "0.5.2",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MessagePackUnpacker",
+        "name": "__destruct",
+        "ext_min": "0.5.2",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MessagePackUnpacker",
+        "name": "setOption",
+        "ext_min": "0.5.2",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MessagePackUnpacker",
+        "name": "feed",
+        "ext_min": "0.5.2",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MessagePackUnpacker",
+        "name": "execute",
+        "ext_min": "0.5.2",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MessagePackUnpacker",
+        "name": "data",
+        "ext_min": "0.5.2",
+        "php_min": "5.0.0"
+    },
+    {
+        "class_name": "MessagePackUnpacker",
+        "name": "reset",
+        "ext_min": "0.5.2",
+        "php_min": "5.0.0"
+    }
+]

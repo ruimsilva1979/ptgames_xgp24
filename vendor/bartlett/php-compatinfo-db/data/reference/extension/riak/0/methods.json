@@ -1,0 +1,1531 @@
+[
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "__construct",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "put",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "get",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "delete",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "index",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "indexQuery",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "counter",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "getPropertyList",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "setPropertyList",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "getConflictResolver",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "setConflictResolver",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "getKeyStream",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "getKeyList",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "getName",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Bucket",
+        "name": "getConnection",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "__construct",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getNValue",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setNValue",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getAllowMult",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setAllowMult",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getLastWriteWins",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setLastWriteWins",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getOldVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setOldVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getYoungVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setYoungVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getSmallVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setSmallVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getBigVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setBigVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getR",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setR",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getPR",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setPR",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getDW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setDW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getPW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setPW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getRW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setRW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getBasicQuorum",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setBasicQuorum",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getNotFoundOk",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setNotFoundOk",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getSearchEnabled",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setSearchEnabled",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getBackend",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setBackend",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getPreCommitHookList",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setPreCommitHookList",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getPostCommitHookList",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setPostCommitHookList",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getCHashKeyFun",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setCHashKeyFun",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getLinkFun",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setLinkFun",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "getReplicationMode",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\BucketPropertyList",
+        "name": "setReplicationMode",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Connection",
+        "name": "__construct",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Connection",
+        "name": "ping",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Connection",
+        "name": "getHost",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Connection",
+        "name": "getPort",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Connection",
+        "name": "getBucket",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Connection",
+        "name": "getServerInfo",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Counter",
+        "name": "__construct",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Counter",
+        "name": "increment",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Counter",
+        "name": "incrementAndGet",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Counter",
+        "name": "get",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\GetInput",
+        "name": "setR",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\GetInput",
+        "name": "getR",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\GetInput",
+        "name": "setPR",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\GetInput",
+        "name": "getPR",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\GetInput",
+        "name": "setBasicQuorum",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\GetInput",
+        "name": "getBasicQuorum",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\GetInput",
+        "name": "setNotFoundOk",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\GetInput",
+        "name": "getNotFoundOk",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\UpdateInput",
+        "name": "setW",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\UpdateInput",
+        "name": "getW",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\UpdateInput",
+        "name": "setDW",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\UpdateInput",
+        "name": "getDW",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\UpdateInput",
+        "name": "setPW",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Crdt\\Input\\UpdateInput",
+        "name": "getPW",
+        "ext_min": "0.8.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "setR",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "getR",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "setPR",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "getPR",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "setRW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "getRW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "setW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "getW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "setDW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "getDW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "setPW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "getPW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "setVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\DeleteInput",
+        "name": "getVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "setReturnHead",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "getReturnHead",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "setR",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "getR",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "setPR",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "getPR",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "setBasicQuorum",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "getBasicQuorum",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "setNotFoundOk",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "getNotFoundOk",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "setIfModifiedVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "getIfModifiedVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "setReturnDeletedVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\GetInput",
+        "name": "getReturnDeletedVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\IndexInput",
+        "name": "setContinuation",
+        "ext_min": "0.7.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\IndexInput",
+        "name": "getContinuation",
+        "ext_min": "0.7.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\IndexInput",
+        "name": "setMaxResults",
+        "ext_min": "0.7.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\IndexInput",
+        "name": "getMaxResults",
+        "ext_min": "0.7.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "setReturnHead",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "getReturnHead",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "setW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "getW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "setDW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "getDW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "setPW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "getPW",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "setVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "getVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "setReturnBody",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "getReturnBody",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "setIfNoneMatch",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "getIfNoneMatch",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "setIfNotModified",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Input\\PutInput",
+        "name": "getIfNotModified",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Link",
+        "name": "__construct",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Link",
+        "name": "getTag",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Link",
+        "name": "getBucketName",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Link",
+        "name": "getKey",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Functions\\BaseFunction",
+        "name": "toArray",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Functions\\ErlangFunction",
+        "name": "__construct",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Functions\\JavascriptFunction",
+        "name": "__construct",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Functions\\JavascriptFunction",
+        "name": "anon",
+        "static": true,
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Functions\\JavascriptFunction",
+        "name": "named",
+        "static": true,
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Input\\BucketInput",
+        "name": "__construct",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Input\\BucketInput",
+        "name": "setIndexFilter",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Input\\Input",
+        "name": "getValue",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Input\\KeyDataListInput",
+        "name": "__construct",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Input\\KeyDataListInput",
+        "name": "add",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Input\\KeyListInput",
+        "name": "__construct",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Input\\KeyListInput",
+        "name": "addArray",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Input\\KeyListInput",
+        "name": "addSingle",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\MapReduce",
+        "name": "__construct",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\MapReduce",
+        "name": "addPhase",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\MapReduce",
+        "name": "setInput",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\MapReduce",
+        "name": "toArray",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\MapReduce",
+        "name": "toJson",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\MapReduce",
+        "name": "run",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Output\\Output",
+        "name": "__construct",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Output\\Output",
+        "name": "getValue",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Output\\Output",
+        "name": "getPhaseNumber",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Phase\\MapPhase",
+        "name": "__construct",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Phase\\Phase",
+        "name": "toArray",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Phase\\ReducePhase",
+        "name": "__construct",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "__construct",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "getKey",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "setKey",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "getContent",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "setContent",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "addIndex",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "addLink",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "addMetadata",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "setCharset",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "getCharset",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "setContentType",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "getContentType",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "setContentEncoding",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "getContentEncoding",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "getVTag",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "isDeleted",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "getIndexMap",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "getMetadataMap",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "getLinkList",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "getVClock",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "setVClock",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "getLastModifiedUSecs",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Object",
+        "name": "getLastModified",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\ObjectList",
+        "name": "__construct",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\ObjectList",
+        "name": "first",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\ObjectList",
+        "name": "last",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\ObjectList",
+        "name": "isEmpty",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\GetOutput",
+        "name": "isUnchanged",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\IndexOutput",
+        "name": "__construct",
+        "ext_min": "0.7.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\IndexOutput",
+        "name": "getContinuation",
+        "ext_min": "0.7.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\IndexOutput",
+        "name": "getResultList",
+        "ext_min": "0.7.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\IndexResult",
+        "name": "__construct",
+        "ext_min": "0.7.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\IndexResult",
+        "name": "getKey",
+        "ext_min": "0.7.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\IndexResultList",
+        "name": "__construct",
+        "ext_min": "0.7.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\Output",
+        "name": "getObjectList",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\Output",
+        "name": "getVClock",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\Output",
+        "name": "getKey",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\Output",
+        "name": "hasSiblings",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\Output",
+        "name": "hasObject",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\Output",
+        "name": "getObject",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\Output",
+        "name": "getFirstObject",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\PoolInfo",
+        "name": "getNumActiveConnection",
+        "static": true,
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\PoolInfo",
+        "name": "getNumActivePersistentConnection",
+        "static": true,
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\PoolInfo",
+        "name": "getNumReconnect",
+        "static": true,
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Property\\CommitHook",
+        "name": "__construct",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Property\\CommitHook",
+        "name": "getJsName",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Property\\CommitHook",
+        "name": "getErlModule",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Property\\CommitHook",
+        "name": "getErlFunction",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Property\\CommitHook",
+        "name": "isJavascript",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Property\\CommitHook",
+        "name": "isErlang",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Property\\CommitHookList",
+        "name": "__construct",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Property\\ModuleFunction",
+        "name": "__construct",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Property\\ModuleFunction",
+        "name": "getModule",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Property\\ModuleFunction",
+        "name": "setModule",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Property\\ModuleFunction",
+        "name": "getFunction",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Property\\ModuleFunction",
+        "name": "setFunction",
+        "ext_min": "0.6.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Query\\IndexQuery",
+        "name": "__construct",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Query\\IndexQuery",
+        "name": "setName",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Query\\IndexQuery",
+        "name": "getName",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Query\\IndexQuery",
+        "name": "setExactValue",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Query\\IndexQuery",
+        "name": "getExactValue",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Query\\IndexQuery",
+        "name": "setRangeValue",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Query\\IndexQuery",
+        "name": "getRangeValue",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Query\\IndexQuery",
+        "name": "isRangeQuery",
+        "ext_min": "0.4.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "setRowLimit",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "getRowLimit",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "setStartOffset",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "getStartOffset",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "setSort",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "getSort",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "setFilter",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "getFilter",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "setDefaultField",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "getDefaultField",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "setDefaultOperation",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "getDefaultOperation",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "setPresort",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "getPresort",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "setFieldLimits",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Input\\ParameterBag",
+        "name": "getFieldLimits",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Output\\DocumentOutput",
+        "name": "getFields",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Output\\Output",
+        "name": "hasMaxScore",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Output\\Output",
+        "name": "getMaxScore",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Output\\Output",
+        "name": "hasNumFound",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Output\\Output",
+        "name": "getNumFound",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Output\\Output",
+        "name": "getDocuments",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Search",
+        "name": "__construct",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Search\\Search",
+        "name": "search",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\ServerInfo",
+        "name": "__construct",
+        "ext_min": "0.9.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\ServerInfo",
+        "name": "getNode",
+        "ext_min": "0.9.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\ServerInfo",
+        "name": "getServerVersion",
+        "ext_min": "0.9.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\MapReduce\\Output\\StreamOutput",
+        "name": "receive",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Riak\\Output\\KeyStreamOutput",
+        "name": "process",
+        "ext_min": "0.5.0",
+        "php_min": "5.3.0"
+    }
+]

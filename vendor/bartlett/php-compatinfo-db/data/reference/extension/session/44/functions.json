@@ -1,0 +1,7 @@
+[
+    {
+        "name": "session_commit",
+        "ext_min": "4.4.0",
+        "php_min": "4.4.0"
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "class_name": "IteratorAggregate",
+        "name": "getIterator",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Iterator",
+        "name": "current",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Iterator",
+        "name": "key",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Iterator",
+        "name": "next",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Iterator",
+        "name": "rewind",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Iterator",
+        "name": "valid",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "ArrayAccess",
+        "name": "offsetExists",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "ArrayAccess",
+        "name": "offsetGet",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "ArrayAccess",
+        "name": "offsetSet",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "ArrayAccess",
+        "name": "offsetUnset",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Serializable",
+        "name": "unserialize",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Serializable",
+        "name": "serialize",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Closure",
+        "name": "bindTo",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Closure",
+        "name": "call",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Closure",
+        "name": "bind",
+        "static": true,
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Closure",
+        "name": "fromCallable",
+        "static": true,
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    },
+    {
+        "class_name": "Closure",
+        "name": "__invoke",
+        "ext_min": "5.3.0",
+        "php_min": "5.3.0"
+    }
+]

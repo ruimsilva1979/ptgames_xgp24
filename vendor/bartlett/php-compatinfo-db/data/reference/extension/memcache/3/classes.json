@@ -1,0 +1,7 @@
+[
+    {
+        "name": "MemcachePool",
+        "ext_min": "3.0.0",
+        "php_min": "4.3.11"
+    }
+]

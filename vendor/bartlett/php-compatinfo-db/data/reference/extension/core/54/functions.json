@@ -1,0 +1,12 @@
+[
+    {
+        "name": "get_declared_traits",
+        "ext_min": "5.4.0",
+        "php_min": "5.4.0"
+    },
+    {
+        "name": "trait_exists",
+        "ext_min": "5.4.0",
+        "php_min": "5.4.0"
+    }
+]
